@@ -1,0 +1,388 @@
+<!doctype html>
+
+<!--[if lt IE 7]><html class="nojs ms lt_ie7" lang="en"><![endif]-->
+<!--[if IE 7]><html class="nojs ms ie7" lang="en"><![endif]-->
+<!--[if IE 8]><html class="nojs ms ie8" lang="en"><![endif]-->
+<!--[if gt IE 8]><html class="nojs ms" lang="en"><![endif]-->
+
+<html lang="en">
+
+<head>
+	<title>Documentation</title>
+
+	<!-- meta -->
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9,chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <meta name="author" content="iKreativ">
+
+	<!-- we're minifying and combining all our css -->
+	<link href="assets/css/style.css" rel="stylesheet">
+
+  	<!-- grab jquery from google cdn. fall back to local if offline -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/jquery.js"><\/script>')</script>
+
+    <!-- load up our js -->
+    <script src="assets/js/prettify/run_prettify.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/application.js"></script>
+
+    <!-- some conditionals for ie -->
+    <!--[if IE]><link href="assets/css/ie.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+    <!-- HTML5 elements in less than IE9, yes please! -->
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <!-- If less than IE8 add some JS for the webfont icons -->
+    <!--[if lt IE 8]><script src="assets/js/ie_font.js"></script><![endif]-->
+</head>
+
+<body id="index">
+
+	<!-- main -->
+	<section id="main" role="main" class="bg-escheresque">
+
+		<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6 -->
+		<!--[if lt IE 7]>
+			<p>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
+		<![endif]-->
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+	        <!-- nav -->
+	        <nav id="primary">
+				<ul id="menu-primary">
+					<li><a href="#introduction">Introduction</a></li>
+					<li><a href="#structure">Structure</a></li>
+					<li><a href="#install">Install</a></li>
+					<li><a href="#setup">Setup</a></li>
+					<li><a href="#options">Options</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact Page</a></li>
+					<li><a href="#xml">Sample Data</a></li>
+					<li><a href="#shortcodes">Shortcodes & Classes</a></li>
+					<li><a href="#troubleshooting">Troubleshooting</a></li>
+				</ul>
+			</nav>
+			<!-- /nav -->
+
+			<!-- introduction -->
+			<section id="introduction" class="section">
+				<h1>Introduction</h1>
+				<p><b>Firstly, thanks for buying our themes, we really, really do appreciate it!</b></p>
+				<p>We have tried to cover everything in the documentation, but if there is anything at all that you need help with, do not hesitate to contact us, we'll do our best to help you out.</p>
+			</section>
+			<!-- /introduction -->
+
+			<!-- structure -->
+			<section id="structure" class="section">
+				<h1>Structure.</h1>
+				<p>The general template structure is the consistent throughout the template. Below we will outline typical HTML, CSS and Javascript file structure.</p>
+
+<h6>Template structure:</h6>
+<pre>
+&lt;!-- nav --&gt;
+&lt;nav id="primary"&gt;
+    &lt;div class="boxed"&gt;
+        &lt;?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'nav', 'theme_location' => 'primary_menu' ) ); ?&gt;
+    &lt;/div&gt;
+
+    &lt;a class="open" href="#menu-primary"><?php _('Menu', 'refinery'); ?>&lt;/a&gt;
+&lt;/nav&gt;
+&lt;!-- /nav --&gt;
+</pre>
+
+<h6>CSS structure:</h6>
+<pre>
+/**
+ * Nav
+ */
+nav#primary
+{
+    background: #3F3F49;
+    width: 200px;
+    height: 100%;
+    padding: 25px 50px 0 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav#primary ul li
+{
+    display: block;
+    text-align: right;
+    padding: 5px 0;
+}
+
+nav#primary ul li a
+{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+nav#primary ul li a:hover
+{
+ 	color: #F16863;
+}
+/* @end Nav */
+</pre>
+
+<h6>JS structure:</h6>
+<pre>
+// primary drop menu
+$("#primary li").hover(function() {
+      $(this).find('ul:first').stop(true, true).animate({
+            height: ['toggle', 'swing'],
+            opacity: 'toggle'
+      }, 300, 'linear');
+});
+</pre>
+			</section>
+			<!-- /structure -->
+
+			<!-- install -->
+			<section id="install" class="section">
+			    <h1>Install.</h1>
+			    <p>There are two ways to install your new Wordpress theme. You may install via the Wordpress Admin section, or via FTP.</p>
+
+                <h6>Installation via Admin:</h6>
+                <p>Log in to your Wordpress Admin section at http://your-website.com/wp-admin/</p>
+                <p>Once logged in you will need to navigate to Appearance > Themes > Install Themes from the left menu. From there click Upload from the top sub-menu.</p>
+                <p>Click on the Browse button and browse to where you saved your theme and select it. Now click Install Now. Once installed it will return and ask you if you would like to activate the new theme, click activate.</p>
+
+                <h6>Installation via FTP:</h6>
+                <p>Open up your favourite FTP client and enter your FTP credentials given to you by your Web Host.</p>
+                <p>Once you have connected to your server via FTP you need to navigate to /wp-content/themes/</p>
+                <p>Next extract / unzip your theme.zip. This will create a folder with the same name as the theme.zip file only without the .zip extension.</p>
+                <p>Now you need to upload the extracted folder into your /wp-content/themes/ directory with your FTP client.</p>
+                <p>Once uploaded, head over to your Wordpress Admin section in your web browser and from the left menu navigate to Appearance > Themes. You will now see your newly installed theme. Click activate.</p>
+
+                <hr>
+
+                <p class="help-text"><b>Top tip:</b> When uploading your theme ensure you have extracted the theme from the download first and you are uploading only the theme, this will prevent you from getting the error "The theme is missing the style.css stylesheet".</p>
+			</section>
+			<!-- /install -->
+
+			<!-- setup -->
+			<section id="setup" class="section">
+			     <h1>Setup.</h1>
+                 <p>Create your pages from the Wordpress menu Pages > Add New (no need to add content yet).</p>
+
+                 <p>Once you've created all of your pages, head to Appearance > Menus and create your Wordpress menu system. From the screen create a new menu and then from the Theme Locations box select Primary Menu and assign the menu you just created.</p>
+
+                 <p>Scroll down and under Pages add whatever pages you'd like to display, these are the pages you created earlier. You can then drag and drop to order them and click save when you're done!</p>
+
+                 <p>Next, head to Settings > Reading and set the page you'd like to display as your homepage and the page you'd like your Blog to display on.</p>
+
+                 <p>Now go to Settings > Permalinks, we like to use a Custom Structure which is: /%category%/%postname%/ however, using the postname setting in there works fine too.</p>
+
+                 <p>That's the basics done!</p>
+
+                 <p>We'll go into more details on setting the menu system and page titles for this particular theme in the next section.</p>
+
+                 <hr>
+
+                 <p class="help-text"><b>Note:</b> This section is entirely optional.</p>
+			</section>
+			<!-- /setup -->
+
+			<!-- options -->
+			<section id="options" class="section">
+			     <h1>Options.</h1>
+			     <p>This theme uses the native Wordpress Customize section for configuring various options.</p>
+			     <p>Let take a look. Head to Appearance > Customize from the menu. You will now see a live version of the theme with an options panel down the left hand side. Let's run through those sections.</p>
+
+			     <ul>
+			         <li><b>Site title & Tagline:</b> The title will display if no logo is set. The tagline will display on pages where no title is set or cannot be set.</li>
+			         <li><b>Navigation:</b> What navigation to use for the site. This will be the one you created earlier.</li>
+			         <li><b>Static Frontpage:</b> If you went through the setup process previously this will already be set.</li>
+			         <li><b>Logo:</b> Simply upload an image you'd like for your logo.</li>
+			         <li><b>Styling:</b> Choose an accent color that will carry through various part of your site such as hovers, links etc...</li>
+			         <li><b>Social:</b> Enter usernames / URL's for your social profiles, this will display the icons in the footer.</li>
+			     </ul>
+
+			     <hr>
+
+			     <p class="help-text"><b>Note:</b> Leaving any option blank will disable.</p>
+			</section>
+			<!-- /options -->
+
+			<!-- portfolio -->
+			<section id="portfolio" class="section">
+			     <h1>Portfolio.</h1>
+			     <p>This theme creates a custom post type for your portfolio, this will create a 'Portfolio' button in the left menu.</p>
+			     <p>When you've created a page that will display the portfolio items be sure to set the page template to 'Portfolio' in the page attributes menu.</p>
+			     <p>Simply give each item a title, content and a featured image. If you like to have multiple images simply add them in the content section.</p>
+			     <p>You can also add a filter that will be used to filter the portfolio items on the portfolio page.</p>
+
+			     <hr>
+
+			     <p class="help-text"><b>Note:</b> You can use the Portfolio module as your homepage, or any other page.</p>
+			</section>
+			<!-- /portfolio -->
+
+			<!-- contact -->
+			<section id="contact" class="section">
+			     <h1>Contact Page.</h1>
+			     <p>To use our contact page, simply create a page, set its page template to 'Contact' from the page attributes menu and add your content.</p>
+			     <p>The email address that the mail will be sent to is the admin email set in Settings > General.</p>
+			</section>
+			<!-- /contact -->
+
+			<!-- samplexml -->
+			<section id="xml" class="section">
+			     <h1>Installing sample data.</h1>
+			     <p>This theme comes with an XML file of the sample data from the theme demo. To use this data as a starting point is easy. From your wp-admin head to Tools > Import from the left menu.</p>
+			     <p>On the next screen select Wordpress, you will then be presented with a popup asking you to install a plugin, go ahead and install it. Now from the Tools > Import menu again you will be able to browse and select the sample.xml that came with the themeand import it.</p>
+
+			     <hr>
+
+			     <p class="help-text"><b>Note:</b> This section is entirely optional.</p>
+			</section>
+			<!-- /samplexml -->
+
+			<!-- shortcodes & classes -->
+			<section id="shortcodes" class="section">
+			     <h1>Shortcodes &amp; Classes.</h1>
+			     <p>All of our themes are built around our popular CSS framework Workless.</p>
+			     <p>So, not only do you get all the goodies we build into our themes, you also inherit the classes from Workless!</p>
+			     <p>For those of you comfortable with CSS you can checkout the <a href="//workless.ikreativ.com">Workless site</a> for full info and available options.</p>
+			     <p>Ok, let's get on with it!</p>
+
+			     <h6>Columns.</h6>
+			     <p>You have a choice of columns for arranging your content, you have the following options:</p>
+			     <p>one full, one half, one third, two third, one quarter and one fifth.</p>
+			     <p>Using columns is very easy, you simply wrap any content you like with any column you like, you can also either use the shortcode variant or directly with a CSS class, let's have a look at the usage:</p>
+
+<pre>
+// Shortcode usage
+[one half]
+    you add your content in here, then close the shortcode.
+[/one half]
+</pre>
+
+<pre>
+// Class usage
+&lt;div class="one_half"&gt;
+    you add your content in here, then close the element.
+&lt;/div&gt;
+</pre>
+
+            <h6>Pricing.</h6>
+            <p>The next shortcode is probably the hardest to use as it has a few parameters, the pricing shortcode. Let's run through it:</p>
+
+<pre>
+// Each pricing box is used like this
+[pricing heading="Demo" price="FREE" link="#" name="Sign Up" items="
+    &lt;ul&gt;
+	    &lt;li&gt;HTML Website&lt;/li&gt;
+	    &lt;li&gt;1 Business Cards&lt;/li&gt;
+	    &lt;li&gt;Branding Package&lt;/li&gt;
+	    &lt;li&gt;1 mths free hosting&lt;/li&gt;
+    &lt;/ul&gt;
+"]
+</pre>
+
+            <p>You can see how this relates to the output on the frontend by <a href="//themes.ikreativ.com/focus/pricing/">checking the demo</a>. You'll notice that in the demo we have 4 different pricing options, how do we set them up? Easy, we have just wrapped each pricing shortcode in a column shortcode, let's take a look:</p>
+
+<pre>
+// Wrap a pricing box inside a column
+[one quarter]
+    [pricing heading="Demo" price="FREE" link="#" name="Sign Up" items="
+        &lt;ul&gt;
+    	    &lt;li&gt;HTML Website&lt;/li&gt;
+    	    &lt;li&gt;1 Business Cards&lt;/li&gt;
+    	    &lt;li&gt;Branding Package&lt;/li&gt;
+    	    &lt;li&gt;1 mths free hosting&lt;/li&gt;
+        &lt;/ul&gt;
+    "]
+[/one quarter ]
+</pre>
+
+            <h6>Progress Bars.</h6>
+            <p>Next up, animated progress bars, you can see them in action on the demo about page. Let's take a look:</p>
+
+<pre>
+// Again, notice we wrap them in a column shortcode for styling
+[one half]
+    [progressbar value="HTML" amount="97"]
+    [progressbar value="CSS" amount="92"]
+    [progressbar value="PHP" amount="87"]
+    [progressbar value="Wordpress" amount="99"]
+    [progressbar value="LESS" amount="85"]
+    [progressbar value="SASS" amount="82"]
+    [progressbar value="Ruby" amount="35"]
+    [progressbar value="GIT" amount="79"]
+[/one half]
+</pre>
+
+            <h6>Video.</h6>
+            <p>This is very easy to use, take a look:</p>
+
+<pre>
+[video src="http://www.youtube.com/embed/TWfph3iNC-k"]
+</pre>
+
+            <h6>Audio.</h6>
+            <p>Finally, the audio shortcode, again like the video shortcode, very easy to use:</p>
+
+<pre>
+[audio file="http://yoursite.com/path/to/music/tune.mp3"]
+</pre>
+			</section>
+			<!-- /shortcodes & classes -->
+
+			<!-- troubleshooting -->
+			<section id="troubleshooting" class="section">
+			     <h1>Troubleshooting.</h1>
+
+			     <ol>
+			         <li>
+			             <b>Q: I can't install the theme?</b><br>
+			             A: Did you unzip it correctly? The theme comes in the main folder with the Documentation.
+			         </li>
+
+			         <li>
+    			         <b>Q: I can't seem to adjust my menu order?</b><br>
+    			         A: Did you create the Wordpress 3 menu outlined in 'Setup'?
+			         </li>
+
+                     <li>
+                         <b>Q: When I go to my blog the posts don't show images but I added them?</b><br>
+                         A: Did you add a 'Featured Image' to display?
+                     </li>
+
+                     <li>
+                         <b>Q: The contact form doesn't seem to send messages?</b><br>
+                         A: Did you add your email address in the 'General Settings' of the options panel?
+                     </li>
+
+                     <li>
+                         <b>Q: I'm getting the error "The theme is missing the style.css stylesheet"?</b><br>
+                         A: See #1.
+                     </li>
+			</section>
+			<!-- /troubleshooting -->
+
+		</div>
+		<!-- /wrapper -->
+
+	</section>
+	<!-- /main -->
+
+	<!-- top -->
+	<div id="top">
+		<a href="#index">
+			<i class="icon-chevron-up"></i>
+		</a>
+	</div>
+	<!-- /top -->
+
+</body>
+</html>

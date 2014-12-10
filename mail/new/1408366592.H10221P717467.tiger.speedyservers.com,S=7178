@@ -1,0 +1,59 @@
+Return-path: <>
+Envelope-to: luluplew@tiger.speedyservers.com
+Delivery-date: Mon, 18 Aug 2014 13:56:32 +0100
+Received: from mailnull by tiger.speedyservers.com with local (Exim 4.82)
+	id 1XJMUB-0030dy-Sy
+	for luluplew@tiger.speedyservers.com; Mon, 18 Aug 2014 13:56:31 +0100
+X-Failed-Recipients: noreply@awesomecreative.co.uk
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@tiger.speedyservers.com>
+To: luluplew@tiger.speedyservers.com
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1XJMUB-0030dy-Sy@tiger.speedyservers.com>
+Date: Mon, 18 Aug 2014 13:56:31 +0100
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  noreply@awesomecreative.co.uk
+    SMTP error from remote mail server after RCPT TO:<noreply@awesomecreative.co.uk>:
+    host mail3.eqx.gridhost.co.uk [95.142.156.6]:
+    550 Unrouteable address
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <luluplew@tiger.speedyservers.com>
+Received: from luluplew by tiger.speedyservers.com with local (Exim 4.82)
+	(envelope-from <luluplew@tiger.speedyservers.com>)
+	id 1XJMUB-0030do-Bd
+	for noreply@awesomecreative.co.uk; Mon, 18 Aug 2014 13:56:31 +0100
+To: noreply@awesomecreative.co.uk
+Subject: [Luluplews] Please moderate: "Nadia Scullion"
+X-PHP-Script: luluplews.com/wp-comments-post.php for 220.250.15.118
+Date: Mon, 18 Aug 2014 12:56:31 +0000
+From: WordPress <wordpress@luluplews.com>
+Message-ID: <b4f77f3516b884f5ed16baf098b02c85@luluplews.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.4 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=UTF-8
+
+A new comment on the post "Nadia Scullion" is waiting for your approval
+http://luluplews.com/portfolio/nadia-scullion/
+
+Author :  (IP: 220.250.15.118 , 220.250.15.118)
+E-mail : ehzisundd@gmail.com
+URL    : http://www.bildbudskap.se/mcms_include.html
+Whois  : http://whois.arin.net/rest/ip/220.250.15.118
+Comment: 
+Sonnet Poem Writing "A lyric poem of fourteen lines, often about love, that follows one of several strict conventional patterns of rhyme. Elizabeth Barrett Browning, John Keats, and William Shakespeare are poets known for their sonnets". The primary meter of all sonnet poems in English poetry is iambic pentameter although there have been a few tetrameter and even hexameter sonnets, as well. History and Origin The term "sonnet" is derived from the Occitan word sonet and the Italian word sonetto, meaning "little song" or "little sound". It evolved into a poem consisting of 14 lines by the thirteenth century, following a strict rhyming scheme and specific structure. Basic Forms and Types of Sonnet Italian or Petrarchan Sonnet The Italian or Petrarchan sonnet is one of the oldest sonnet forms in the world of literature. This sonnet is further composed of two types of stanza forms. The group of first 8 lines is called the Octave with the rhyming structure abba abba. The remaining 6 lines is called the Sestet and can have either two or three rhyming sounds, arranged in a variety of ways. Common rhyming patterns for a sestet is abcabc or abccba. Example of ItalianPetrarchan Sonnet Poem Milton! thou shouldst be living at this hour: England hath need of thee: she is a fen Of stagnant waters: altar, sword, and pen, Fireside, the heroic wealth of hall and bower, Have forfeited their ancient English dower Of inward happiness. We are selfish men; Oh! raise us up, return to us again; And give us manners, virtue, freedom, power. Thy soul was like a Star, and dwelt apart; Thou hadst a voice whose sound was like the sea: Pure as the naked heavens, majestic, free, So didst thou travel on life's common way, In cheerful godliness; and yet thy heart The lowliest duties on herself did lay. London, by Wordsworth Spenserian Sonnet The Spenserian sonnet, invented by Edmund Spenser is an outgrowth of the stanza pattern, used in his famous work The Faerie Queene a b a b b c b c c, has the pattern: Format of a Spenserian sonnet follows a abab pattern, consisting of independent 4line groups, each containing a specific concept. The first 12 lines consist of lines with an overlapping abcd rhyming scheme, divided into 3 separate quatrains while the last 2 lines consist of a rhyming couplet. The first 3 quatrains contain separate but loosely related idea while the last couplet professes an entirely different idea. Example of Spenserian Sonnet Poem What guile is this, that those her golden tresses She doth attire under a net of gold; And with sly skill so cunningly them dresses, That which is gold or hair, may scarce be told? Is it that men's frail eyes, which gaze too bold, She may entangle in that golden snare; And being caught may craftily enfold Their weaker hearts, which are not yet well aware? Take heed therefore, mine eyes, how ye do stare Henceforth too rashly on that guileful net, In which if ever ye entrapped are, Out of her bands ye by no means shall get. Folly it were for any being free, To covet fetters, though they golden be. Amoretti by Edmund Spenser c. 15521599 English or Shakespearian Sonnet An English or Shakespearean is one of the simplest form in all sonnet poems and consists of 14 lines where each line contains ten syllables and is written in iambic pentameter. The format of a Shakespearian sonnet has a pattern of an unstressed syllable followed by a stressed syllable which is repeated five times. The English sonnet is composed of 3 quatrains of alternating rhyme while the last two lines are a rhyming couplet. The rhyming scheme in a Shakespearean sonnet is abab, cdcd, efef, gg. Each quatrain in the English sonnet forms a specific concept which is closely related or follows the concept of the other quatrains. Example of EnglishShakespearian Sonnet Poem Let me not to the marriage of true minds Admit impediments. Love is not love Which alters when it alteration finds, Or bends with the remover to remove: O no! it is an everfixed mark That looks on tempests and is never shaken; It is the star to every wandering bark, Whose worth's unknown, although his height be taken. Love's not Time's fool, though rosy lips and cheeks Within his bending sickle's compass come: Love alters not with his brief hours and weeks, But bears it out even to the edge of doom. If this be error and upon me proved, I never writ, nor no man ever loved. Shakespearian Sonnet 116 Indefinable Sonnet An indefinable sonnet is the one which does not fit any particular pattern yet consists all the basic elements of a sonnet. This post has been posted by Editor. Visit writing tips to learn more about sonnet poem.
+
+Approve it: http://luluplews.com/wp-admin/comment.php?action=approve&c=735
+Trash it: http://luluplews.com/wp-admin/comment.php?action=trash&c=735
+Spam it: http://luluplews.com/wp-admin/comment.php?action=spam&c=735
+Currently 682 comments are waiting for approval. Please visit the moderation panel:
+http://luluplews.com/wp-admin/edit-comments.php?comment_status=moderated
+

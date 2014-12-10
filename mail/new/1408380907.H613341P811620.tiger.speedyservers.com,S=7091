@@ -1,0 +1,59 @@
+Return-path: <>
+Envelope-to: luluplew@tiger.speedyservers.com
+Delivery-date: Mon, 18 Aug 2014 17:55:07 +0100
+Received: from mailnull by tiger.speedyservers.com with local (Exim 4.82)
+	id 1XJQD5-003P8Y-CU
+	for luluplew@tiger.speedyservers.com; Mon, 18 Aug 2014 17:55:07 +0100
+X-Failed-Recipients: noreply@awesomecreative.co.uk
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@tiger.speedyservers.com>
+To: luluplew@tiger.speedyservers.com
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1XJQD5-003P8Y-CU@tiger.speedyservers.com>
+Date: Mon, 18 Aug 2014 17:55:07 +0100
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  noreply@awesomecreative.co.uk
+    SMTP error from remote mail server after RCPT TO:<noreply@awesomecreative.co.uk>:
+    host mail3.eqx.gridhost.co.uk [95.142.156.6]:
+    550 Unrouteable address
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <luluplew@tiger.speedyservers.com>
+Received: from luluplew by tiger.speedyservers.com with local (Exim 4.82)
+	(envelope-from <luluplew@tiger.speedyservers.com>)
+	id 1XJQD4-003P8K-Nt
+	for noreply@awesomecreative.co.uk; Mon, 18 Aug 2014 17:55:06 +0100
+To: noreply@awesomecreative.co.uk
+Subject: [Luluplews] Please moderate: "Nadia Scullion"
+X-PHP-Script: luluplews.com/wp-comments-post.php for 220.250.15.118
+Date: Mon, 18 Aug 2014 16:55:06 +0000
+From: WordPress <wordpress@luluplews.com>
+Message-ID: <77dc10626b187921a10bdc5d5a2722fd@luluplews.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.4 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=UTF-8
+
+A new comment on the post "Nadia Scullion" is waiting for your approval
+http://luluplews.com/portfolio/nadia-scullion/
+
+Author :  (IP: 220.250.15.118 , 220.250.15.118)
+E-mail : uxllhit@gmail.com
+URL    : http://www.biokub.se/kadidas.html
+Whois  : http://whois.arin.net/rest/ip/220.250.15.118
+Comment: 
+Choosing The Right Tattoo Artist Whether you've already chosen the design for your next tattoo or not, finding the right tattoo artist to get it done is a quest you have to go through. In the next paragraphs you'll learn some points to take into account that'll help you be better prepared to make your decision. One first good step is to get something decided about the tattoo you want to get. The better advice anyone can get, is not to get tattooed unless you know exactly what design you want. If you aren't 100% sure you want a specific tattoo, don't get it. To make a good choice of your tattoo, you can start by narrowing your way, picking a tattoo style you would like to get. For example, you may like biomechanical and old school tattoos a lot, and besides these two, Japanese style tattoos as well. In this case you have already chosen a couple of tattoo styles you would like to get and left out many others that you wouldn't. Unless something makes you change your mind about this, you have a very important issue solved that will help you choose not only your next tattoo, but your next tattoo artist too. Once you know what style you'd like, you can start browsing the Internet to look for tattoo artistsstudios preferably, an artist specialized in the style of your choice. The search of an artist through Internet is a little tricky so you have to keep your eyes wide open and pay close attention to what others say about the people you're investigating about. A good beginning is to google for a term like in case you live in Toronto, for example "tattoo artists Toronto" or "tattoo studio Toronto". This will throw a list of tattoo artistsstudios that reside near your location and it may even display a link to Google Maps, where you can get information about the roads and travel times. But this search by itself won't give you many clues about the quality of the studios, their artists, or most importantly, their artwork. A good idea is to check the website of the studio to see what it looks like. If it looks professional or not may not tell you a lot about how the people down there work, but it will aid you to get a global idea of it, together with the best piece of information a studio's website can give you: it's portfolio. If the portfolio is displayed on the website, you can definitely get a reference of how the artists work. Nevertheless, many pseudo artists steal pictures from other artists and show them as part of their portfolio, so this last step won't be of much help by itself. You need to find out if the artists you are interested in are really what they say they are, and the best place to do this are the forums. Tattoo forums usually have many experienced members that can give you reference about a specific tattoo artiststudio, and recommend you others well. This reference could be vital to make a decision as long as the forum user knows what he's talking about. Many people mostly inexperienced could think a lousy tattoo looks great, which is exactly the kind of advice you want to avoid taking. Get as many opinions as you can, and check the reputation, number of posts and profile of the people giving them. With all this information you're ready to make some calls. Pick up the phone or go personally and talk to the preselected artists. Chat a little about your idea, what style you want to get, which are the possible spots in your body, what should and what shouldn't your tattoo have, what colors you would like, etc. Ask a little about the procedure and what sanitation measures they take. These steps are of vital importance, because you must feel comfortable talking to your artist; if you don't, then you may consider other options. On the other hand, avoid any studio that lacks taking appropriate care of hygiene. Having done all this, you can consider yourself ready. If you don't have a design yet, you can let the artist create one for you this is usually the best recommendation, given that real artists are experts in this field. Artists charge for their time and designing a tattoo takes time. But considering this is something you'll wear for life, you better be ready to spend some money in the designs as well as in the tattooing process. By following this guideline you will be closer to find a tattoo artist that not only works fine and takes the appropriate hygiene measures, but who also gets along with you. And when this happens, you can be sure your tattoo, as well as the process of getting it, will be the best you can get. Javier Pietra writing for TribalShapesm: Free tattoo designs
+
+Approve it: http://luluplews.com/wp-admin/comment.php?action=approve&c=754
+Trash it: http://luluplews.com/wp-admin/comment.php?action=trash&c=754
+Spam it: http://luluplews.com/wp-admin/comment.php?action=spam&c=754
+Currently 701 comments are waiting for approval. Please visit the moderation panel:
+http://luluplews.com/wp-admin/edit-comments.php?comment_status=moderated
+

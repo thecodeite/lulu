@@ -1,0 +1,722 @@
+/*
+Theme Name: 	Starkers
+Theme URI: 		http://viewportindustries.com/products/starkers
+Description: 	The totally nude Wordpress theme!
+Version: 		4.0
+Author: 		Elliot Jay Stocks & Keir Whitaker
+Author URI: 	http://viewportindustries.com
+Tags: 			starkers, naked, clean, basic
+*/
+
+/*
+/* * * * * * * * * * * * * * * * * * * * * * *
+Myers Reset 
+* * * * * * * * * * * * * * * * * * * * * * */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: Tahoma, Geneva, sans-serif !important;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+p + p {
+	margin:15px 0 0 0;
+}
+a:link {
+	color:#000;
+	text-decoration:none;
+}
+a:visited {
+	color:#000;
+	text-decoration:none;
+}
+a:hover {
+	color:rgb(28, 88, 165);
+	text-decoration:none;
+}
+a:active {
+	color:rgb(28, 88, 165);
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * *
+Page Structure
+* * * * * * * * * * * * * * * * * * * * * * */
+
+
+#pageContent_wrapper {
+	width:100%;
+	
+}
+#clear {
+	clear:both;
+}
+#container {
+	width:772px;
+	height:100%;
+	float: left;
+	margin: 0 auto;
+	padding: 0 0 0 278px;
+	
+}
+
+
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * *
+Menu Animation
+* * * * * * * * * * * * * * * * * * * * * * */
+#Mobile-menuBar {
+	display: none;
+}	
+
+
+.floating-logo {
+
+	position:fixed;
+	border-right: 2px solid #E8E8E8;	
+	z-index:1000000;
+	padding: 30px;
+	top:0px;
+}
+
+
+.menu-menu-1-container {
+/*
+	position:fixed;
+	background:#fff;
+	border-right: 1px solid #D1D2D4;	
+	
+	border-top: 1px solid #D1D2D4;
+	top: 320px;
+	margin: 0 26px;
+	overflow: scroll;
+	height: 10000;
+	*/
+  position: fixed;
+  margin: 0;
+  top: 310px;
+  height: 10000px;
+  z-index:1000000;
+  border-top: 2px solid #E8E8E8;
+  border-right: 2px solid #E8E8E8;
+  background:#fff;
+  overflow: visible;
+  
+}
+
+
+
+
+
+.menu-menu-1-container ul li {
+	
+	border-bottom: 2px solid #E8E8E8;
+	width: 214px;
+	padding: 15px 0 15px 26px;
+}
+
+.menu-menu-1-container ul li a {
+	display:block;
+	margin:0 0.5em;
+	color:#000 ;
+	text-transform: none;
+	font-size: 10pt;
+	line-height: 0px;
+	padding: 10px 0;
+
+}
+
+li#menu-item-28 a, li#menu-item-29 a {
+	color:#86888A;
+	text-transform: uppercase;
+}
+
+
+
+
+ul.sub-menu li {
+
+	border-bottom: 0px !important;
+	padding: 0;
+
+}
+
+ul.sub-menu li a{
+	color: #000000 !important;
+	text-transform: none !important;
+	font-size: 10pt !important;
+	line-height: 0px;
+}
+
+li.current-menu-item a:visited {
+	color: #86888A !important;
+}
+
+/*
+li.current-menu-item a:visited{
+	background:url(../images/active-arrow.jpg) no-repeat !important;
+	display: block !important;
+	width: 23px !important;
+	height: 26px !important;
+}
+*/
+/*
+li.menu-item-type-fashion a:hover {
+	color: blue;
+}
+
+*/
+
+
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * *
+Footer
+* * * * * * * * * * * * * * * * * * * * * * */
+
+ul.footer-socials {
+	list-style: none;
+	position: fixed;
+	top: 762px;
+	margin: 0 0 0 24px;
+	z-index:1500000;
+	overflow-y: visible;
+}
+
+.footer-socials li {
+	float: left;
+	margin-left: 8px;
+}
+
+.footer-socials li a.social {
+	display: block;
+	width: 32px;
+	height: 32px;
+	text-indent: -9999px;
+	overflow: hidden;
+	
+}
+
+.footer-socials li a.social-pinterest {
+	margin: -2px 0 0 0;
+}
+
+p.copyright {
+	position: fixed;
+	top: 820px;
+	z-index:1500000;
+	margin: 0 0 0 30px;
+	color: #86888A;
+	font-size: 11px;
+}
+
+p.credit a {
+	position: fixed;
+	top: 834px;
+	z-index:1500000;
+	margin: 0 0 0 30px;
+	color: #86888A;
+	font-size: 11px;
+}
+
+
+
+.mobile-menu-icon,
+img.Mobilelogo,
+.nav {
+	display: none;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * *
+Recent Work / Homepage
+* * * * * * * * * * * * * * * * * * * * * * */
+
+.page-content {
+	padding: 20px 0 30px 0;
+	
+
+}
+
+.page-content h3 {
+	position: relative;
+	top:0;
+	left: 0;
+	background: #D1D2D4;
+	width: 681px;
+	padding: 10px 10px 1px 20px !important;
+	font-size: 11pt !important;
+	font-weight: 500;
+	
+}
+
+img.attachment-post-thumbnail {
+	border: 1px solid #D1D2D4;
+	padding: 10px;
+	margin: 0 0 30px 0;
+}
+
+
+.page-content p {
+	font-size: 10pt;
+	line-height: 13pt;
+	color: #000;
+	/*font-family: arial;
+	font-weight: lighter;*/
+	text-align: justify;
+	background: #D1D2D4;
+	padding: 0 20px 15px 20px;
+	width: 671px;
+	margin: 0 0 30px 0;
+	
+}
+
+
+.rsMinW, .rsMinW .rsOverflow, .rsMinW .rsSlide, .rsMinW .rsVideoFrameHolder, .rsMinW .rsThumbs {
+	background: #ffffff !important;
+	
+}
+
+.royalSlider#new-royalslider-1
+	{
+	height: 543px !important;
+	margin: 0 0 40px 0 !important;
+	}
+	
+
+.royalSlider {
+	margin: 0 auto 0 auto !important;
+	
+}
+
+.rsOverflow {
+	overflow: visible;
+	height: 563px !important;
+}
+
+
+.rsImg {
+	margin-left: 0 !important;
+	margin-top: 0 !important;
+	border: 1px solid #D1D2D4;
+	padding: 10px 10px 10px 10px;
+}
+
+.rsMinW .rsBullets {
+	display: none;
+	
+}
+
+.rsMinW .rsArrow {
+	display: none !important;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * *
+Single Videos
+* * * * * * * * * * * * * * * * * * * * * * */
+
+.video {
+	padding: 0 0 30px 0;
+}
+
+ul.post-categories {
+	margin: 0 0 10px 0;
+}
+
+ul.post-categories li {
+	font-size: 34px;
+}
+
+/*
+ul.post-categories li a {
+	color: #86888A;
+}
+*/
+
+
+/* * * * * * * * * * * * * * * * * * * * * * *
+Contact
+* * * * * * * * * * * * * * * * * * * * * * */
+
+.contact-content {
+	margin: 20px auto 30px 0;
+}
+div.wpcf7 {
+	margin: 0 0 60px 0 !important;
+}
+
+input.name {
+	float: left;
+	border: 1px solid #D1D2D4;
+}
+
+input.email {
+	float: left;
+	margin: 2px 0 0 30px;
+	border: 1px solid #D1D2D4;
+}
+
+p.email {
+	margin: -41px 0 0 30px;
+	float: left;
+}
+
+input.subject {
+	width: 474px;
+	border: 1px solid #D1D2D4;
+}
+
+p.subject {
+	margin: 50px 0 0 0;
+}
+
+
+textarea.message {
+	width: 474px;
+	border: 1px solid #D1D2D4;
+}
+
+.send {
+	border: 1px solid #D1D2D4;
+	border-radius: 5px;
+	padding: 10px;
+	float: right;
+	width: 100px;
+	margin: 0 460px 0 0;
+}
+
+.right {
+	float: right;
+	margin: -137px 457px 0 0;
+	line-height: 30pt;
+}
+
+.map {
+	margin: 30px 0 0 0;
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+	
+	/* * * * * * * * 
+		Homepage 
+	* * * * * * * */
+	
+	img.Mobilelogo {
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+		padding: 15px 0 0 44px;
+		
+	}
+	
+	.mobile-menu-icon {
+		float: right;
+		display: block;
+		margin: 265px 30px 0 0;
+	}
+	
+	.nav-main {
+		float: none;
+		margin: 100px 0 0 0;
+		border-top: 1px solid #D1D2D4;
+		display: none;
+	}
+	
+	.nav-main li {
+		float: none;
+		padding: 0;
+		border-bottom: 1px solid #D1D2D4;
+		margin: 0;
+	}
+	
+	.nav-main li a {
+		display: block;
+		padding: 15px 0 15px 15px;
+		text-transform: none;
+	font-size: 10pt;
+	}
+	
+	.nav-main li.active a {
+		border: none;
+		padding: 8px 0;
+	}
+	
+	.nav-main li.active a:hover {
+		border: none;
+		padding: 8px 0;
+	}
+	
+	li#menu-item-84 a, li#menu-item-83 a {
+	color:#86888A;
+	text-transform: uppercase;
+	}
+	
+	
+	#pageContent_wrapper {
+		width: auto;
+	}
+	
+	#container {
+		width: auto;
+		margin: 0 auto;
+		float: none;
+		padding: 0;
+	}
+	
+	.menu-menu-1-container {
+		display: none;
+	}
+	
+	.floating-logo {
+		display: none;	
+	}
+	
+	.page-content {
+		padding: 30px 0;
+	}
+	
+	.page-content p {
+		width: auto;
+		text-align: justify;
+		position: relative;
+		margin: 0
+	}
+	
+	.royalSlider {
+		margin: 15px auto 0 auto !important;
+	}
+	
+	
+	.royalSlider#new-royalslider-1
+	{
+	height: 280px !important;
+	margin: 30px auto 0 auto !important;
+	
+	}
+	
+	.rsOverflow {
+		height: 280px !important;
+	}
+	
+	img.rsImg {
+		
+		margin-top: 0 !important;
+		margin-left: 0 !important;
+		
+	}
+
+
+	.rsImg {
+	max-width: 100% !important;
+	
+	margin-left: 0 !important;
+	border:0px;
+	padding: 0;
+	}
+	
+	/* * * * * * * * *
+		Gallery Pages 
+	* * * * * * * * */
+	
+	.page-content {
+		padding: 30px 30px 30px 30px;
+		margin: 0 auto;
+	}
+	
+	
+	img.attachment-post-thumbnail {
+		max-width: 100%;
+		height: auto;
+		padding: 30px 0 0 0;
+		border: 0px;
+	}
+	
+	.page-content h3 {
+	position: relative;
+	top:0;
+	left: 0;
+	background: #D1D2D4;
+	width: auto;
+	padding: 10px 10px 1px 20px !important;
+	font-size: 10pt !important;
+	margin: 30px 0 0 0;
+}
+	
+	
+	/* * * * * * * * *
+		Video Pages 
+	* * * * * * * * */
+	
+	.video {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	margin: 20px 0;
+
+	}
+
+	.video iframe,  
+	.video object,  
+	.video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	}
+	
+	/* * * * * * * * *
+		Contact 
+	* * * * * * * * */
+	
+	.contact-content {
+	margin: 65px auto 0 auto;
+	padding: 30px;
+	}
+
+	div.wpcf7 {
+	margin: 0  !important;
+	}
+
+	input.name {
+	float: none;
+	border: 1px solid #D1D2D4;
+	}
+
+	input.email {
+	float: none;
+	margin: 0;
+	border: 1px solid #D1D2D4;
+	}
+
+		p.email {
+	margin: 10px 0 0 0;
+	float: none;
+	}
+
+	input.subject {
+	width: auto;
+	border: 1px solid #D1D2D4;
+	}
+
+	p.subject {
+	margin: 10px 0 0 0;
+	}
+
+
+	textarea.message {
+	width: auto;
+	border: 1px solid #D1D2D4;
+	}
+
+	.send {
+	border: 1px solid #D1D2D4;
+	border-radius: 5px;
+	padding: 10px;
+	float: right;
+	width: 100px;
+	margin: 0 482px 0 0;
+	}
+
+	.right {
+	float: none;
+	margin: 0;
+	line-height: 30pt;
+
+	}
+
+	iframe, object, embed {
+	max-width: 100%;
+	}
+	
+	/* * * * * * * 
+		Footer
+	* * * * * * */
+
+	ul.footer-socials {
+	display: none
+	
+	}
+
+	.footer-socials li {
+	float: left;
+	margin-left: 8px;
+	}
+
+	.footer-socials li a.social {
+	display: block;
+	width: 32px;
+	height: 32px;
+	text-indent: -9999px;
+	overflow: hidden;
+	
+	}
+
+	.footer-socials li a.social-pinterest {
+	margin: -2px 0 0 0;
+	}
+
+	p.copyright {
+	display: none;
+	}
+
+	p.credit a {
+	display: none;
+		}
+
+
+	
+
+}

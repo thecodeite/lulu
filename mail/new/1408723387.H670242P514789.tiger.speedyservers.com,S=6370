@@ -1,0 +1,59 @@
+Return-path: <>
+Envelope-to: luluplew@tiger.speedyservers.com
+Delivery-date: Fri, 22 Aug 2014 17:03:07 +0100
+Received: from mailnull by tiger.speedyservers.com with local (Exim 4.82)
+	id 1XKrIx-0029uy-IE
+	for luluplew@tiger.speedyservers.com; Fri, 22 Aug 2014 17:03:07 +0100
+X-Failed-Recipients: noreply@awesomecreative.co.uk
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@tiger.speedyservers.com>
+To: luluplew@tiger.speedyservers.com
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1XKrIx-0029uy-IE@tiger.speedyservers.com>
+Date: Fri, 22 Aug 2014 17:03:07 +0100
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  noreply@awesomecreative.co.uk
+    SMTP error from remote mail server after RCPT TO:<noreply@awesomecreative.co.uk>:
+    host mail3.eqx.gridhost.co.uk [95.142.156.6]:
+    550 Unrouteable address
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <luluplew@tiger.speedyservers.com>
+Received: from luluplew by tiger.speedyservers.com with local (Exim 4.82)
+	(envelope-from <luluplew@tiger.speedyservers.com>)
+	id 1XKrIx-0029up-6V
+	for noreply@awesomecreative.co.uk; Fri, 22 Aug 2014 17:03:07 +0100
+To: noreply@awesomecreative.co.uk
+Subject: [Luluplews] Please moderate: "Nadia Scullion"
+X-PHP-Script: luluplews.com/wp-comments-post.php for 220.250.15.177
+Date: Fri, 22 Aug 2014 16:03:07 +0000
+From: WordPress <wordpress@luluplews.com>
+Message-ID: <14cb189fd7f83a7ecfed442688db9b7e@luluplews.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.4 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=UTF-8
+
+A new comment on the post "Nadia Scullion" is waiting for your approval
+http://luluplews.com/portfolio/nadia-scullion/
+
+Author :  (IP: 220.250.15.177 , 220.250.15.177)
+E-mail : rppxmvqagq@gmail.com
+URL    : http://www.klf.nu/config.asp
+Whois  : http://whois.arin.net/rest/ip/220.250.15.177
+Comment: 
+Steps To Manage And Grow Your Custom Tattoo Design Business In earlier days, tattoos were something out of the ordinary. Today, however, many people wear tattoos as part of their culture, religion, beliefs, and lifestyle and they serve as their voice to the world. Although traditional tattoo symbols are still popular, the demand for custom design tattoos is unprecedented. If you are a tattoo designer and want to venture into this kind of business, there are steps to consider ensuring the growth of your custom tattoo design business. Here are some measures that will guide you through the management and development of your business. Work Out a Business Scheme Planning a scheme for your business is always the first step in making it successful. You should recognize all sides of the business that can affect your financial standing. An overview or feasibility study of your expenses, gross income or loss, riskrate and marketability for your business should be done, so you have an idea of what to do and what not to do. Whether you are a hobbyist or an artist, it is better that you seek the advice of a professional or a knowledgeable friend for your business. Since most of your clients will be tattoo enthusiasts, you should make a lot of effort to attract these clients. The demand for this business is capricious in nature, meaning that, just like fashion, it can have peaks and troughs. To avoid damaging your business, knowledge is required and a backup plan constructed to keep you afloat in times where demand is low. Always remember that every business has its risks which you should be ready to face. Sustaining the Marketability For every business that provides services the main goal is to have loyal customers. In the custom tattoo design business there are several ways to maintain demand. First and foremost, provide high quality work to your customers. Any tattoo designer, even if working independently or employed in a parlor, will be requested by old and new customers if they know they can do the job well. Mistakes are a nono for any tattoo business and they can ruin your reputation. Providing a clean and sanitary environment is also important, since health is a number one consideration in the tattoo business. Another is giving perks and benefits to customers, so that they will know that they are valued as clients. You may offer membership programs, offer discount rates and do other promotional offers for your loyal customers as well as potential clients. One other way is to provide a platform for a tattoo contest open to enthusiast, hobbyist and artist alike. In this way, you promote your business, and at the same time, you would learn what your customers' preferences are, as these are important. Innovations To make any business successful you should always be looking for ways to offer more from your business. Constant innovation, through design, upgraded techniques in tattooing, providing new and high quality standard equipment and updating catalog designs, is a must to expand your business. Learn to broaden your market reach not only to tattoo enthusiasts but to potential clients who will appreciate good artwork. The tattoo industry has its own intense competition, and since tattoos are considered a fashion statement today, you have to try to come up with new trends and styles. Tattoos today are not just something that you sell; it is much more personal than that. Kristen Dunn is a tattoo enthusiast and professional tattoo designer who has created thousands of thought provoking, elegant, and funky tattoos for her clients. She has a vast collection of custom designs to her credit. Winner of several awards and accolades, Kristen is now a founding member of the world's largest custom tattoo design community at CreateMyTattoo. View her tattoo collection or read more on her blog here.
+
+Approve it: http://luluplews.com/wp-admin/comment.php?action=approve&c=1173
+Trash it: http://luluplews.com/wp-admin/comment.php?action=trash&c=1173
+Spam it: http://luluplews.com/wp-admin/comment.php?action=spam&c=1173
+Currently 1,120 comments are waiting for approval. Please visit the moderation panel:
+http://luluplews.com/wp-admin/edit-comments.php?comment_status=moderated
+

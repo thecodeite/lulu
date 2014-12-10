@@ -1,0 +1,59 @@
+Return-path: <>
+Envelope-to: luluplew@tiger.speedyservers.com
+Delivery-date: Tue, 12 Aug 2014 22:13:46 +0100
+Received: from mailnull by tiger.speedyservers.com with local (Exim 4.82)
+	id 1XHJO5-000hS9-TO
+	for luluplew@tiger.speedyservers.com; Tue, 12 Aug 2014 22:13:45 +0100
+X-Failed-Recipients: noreply@awesomecreative.co.uk
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@tiger.speedyservers.com>
+To: luluplew@tiger.speedyservers.com
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1XHJO5-000hS9-TO@tiger.speedyservers.com>
+Date: Tue, 12 Aug 2014 22:13:45 +0100
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  noreply@awesomecreative.co.uk
+    SMTP error from remote mail server after RCPT TO:<noreply@awesomecreative.co.uk>:
+    host mail3.eqx.gridhost.co.uk [95.142.156.6]:
+    550 Unrouteable address
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <luluplew@tiger.speedyservers.com>
+Received: from luluplew by tiger.speedyservers.com with local (Exim 4.82)
+	(envelope-from <luluplew@tiger.speedyservers.com>)
+	id 1XHJO5-000hRw-H2
+	for noreply@awesomecreative.co.uk; Tue, 12 Aug 2014 22:13:45 +0100
+To: noreply@awesomecreative.co.uk
+Subject: [Luluplews] Please moderate: "Nadia Scullion"
+X-PHP-Script: luluplews.com/wp-comments-post.php for 175.42.27.148
+Date: Tue, 12 Aug 2014 21:13:45 +0000
+From: WordPress <wordpress@luluplews.com>
+Message-ID: <d72b058af6b193395521a973f71b55d9@luluplews.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.4 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=UTF-8
+
+A new comment on the post "Nadia Scullion" is waiting for your approval
+http://luluplews.com/portfolio/nadia-scullion/
+
+Author :  (IP: 175.42.27.148 , 175.42.27.148)
+E-mail : wjcvqxiosm@gmail.com
+URL    : http://www.elvarmeteknik.se/index_0703216.php
+Whois  : http://whois.arin.net/rest/ip/175.42.27.148
+Comment: 
+Poems And Their Usage Writing has always been the best way of expressing what you feel. People often write to relieve their tension and also to let out their emotions. For a lot of people this is the only way of expressing themselves as they are not good at communicating otherwise. There are different forms of writing as well. Some people write articles, short stories or plays through which they express themselves while other people are more into writing poems. Poems are an excellent way of expressing what you feel. Everyone perceives this piece of writing in their own way and everyone's perception varies. Poems too have several categories and in every category the poems are written differently. It is the choice of the poet as to what sort of poem heshe writes. There are a lot of poets who stick to their form of writing a poem and they never change it but there are those who constantly experiment with how the write a poem. It is good to read a different kind of poem from the same poet. There are several categories of poems and each one is different than the other. The most popular ones are ballads, odes, sonnets, epic, ghazal, limerick and epitaph, free verse etc. Ballads are often sing able verses which are commonly about popular fables. These are basically simple but contain a lot of graphic details. Next comes an ode, odes are written to appreciate or praise a particular person or a thing. Sometimes it even includes a place. Then there are sonnets, sonnets always have 14 lines that have a certain rhyming scheme to it. Epic is a poem that is usually about a hero, mostly mythical, in which the poet talks about his doings and his heroic deeds. There are several very important and famous poems that fall in this category. Ghazal too is a form of poem and this is really famous in the Middle East. It has a particular rhyme scheme and it consists of several couplets which when taken apart are a poem within themselves. These too can be used in songs as lyrics. Limerick is basically a funny poem which has no proper foundation. It is written as a joke and the topics of this type of poem can be diverse. It all depends on the poet. Epitaph is poem that is put on the graves of the loved ones in which hisher good qualities are praised. These usually rhyme. Free verse is particularly popular these days and most of the latest Latest Poems are written according to this type. This type of poem has several verses and these are not definite. The poet can break off a line at any point and does so to keep the reader in suspense. Poetry SMS are aslo very much famous these days. Poems these days are written on various topics and people write them very generally. They are easy to understand and do not consist of difficult words or ideas that might confuse the reader. latest poems
+
+Approve it: http://luluplews.com/wp-admin/comment.php?action=approve&c=369
+Trash it: http://luluplews.com/wp-admin/comment.php?action=trash&c=369
+Spam it: http://luluplews.com/wp-admin/comment.php?action=spam&c=369
+Currently 316 comments are waiting for approval. Please visit the moderation panel:
+http://luluplews.com/wp-admin/edit-comments.php?comment_status=moderated
+

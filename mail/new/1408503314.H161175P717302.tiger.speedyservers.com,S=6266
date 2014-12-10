@@ -1,0 +1,59 @@
+Return-path: <>
+Envelope-to: luluplew@tiger.speedyservers.com
+Delivery-date: Wed, 20 Aug 2014 03:55:14 +0100
+Received: from mailnull by tiger.speedyservers.com with local (Exim 4.82)
+	id 1XJw3O-0030bE-1u
+	for luluplew@tiger.speedyservers.com; Wed, 20 Aug 2014 03:55:14 +0100
+X-Failed-Recipients: noreply@awesomecreative.co.uk
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@tiger.speedyservers.com>
+To: luluplew@tiger.speedyservers.com
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1XJw3O-0030bE-1u@tiger.speedyservers.com>
+Date: Wed, 20 Aug 2014 03:55:14 +0100
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  noreply@awesomecreative.co.uk
+    SMTP error from remote mail server after RCPT TO:<noreply@awesomecreative.co.uk>:
+    host mail3.eqx.gridhost.co.uk [95.142.156.6]:
+    550 Unrouteable address
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <luluplew@tiger.speedyservers.com>
+Received: from luluplew by tiger.speedyservers.com with local (Exim 4.82)
+	(envelope-from <luluplew@tiger.speedyservers.com>)
+	id 1XJw3N-0030Zi-KV
+	for noreply@awesomecreative.co.uk; Wed, 20 Aug 2014 03:55:13 +0100
+To: noreply@awesomecreative.co.uk
+Subject: [Luluplews] Please moderate: "Nadia Scullion"
+X-PHP-Script: luluplews.com/wp-comments-post.php for 175.42.27.115
+Date: Wed, 20 Aug 2014 02:55:13 +0000
+From: WordPress <wordpress@luluplews.com>
+Message-ID: <e556f762d7279d682560b95c44832f56@luluplews.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.4 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=UTF-8
+
+A new comment on the post "Nadia Scullion" is waiting for your approval
+http://luluplews.com/portfolio/nadia-scullion/
+
+Author : ニューバランス 996 (IP: 175.42.27.115 , 175.42.27.115)
+E-mail : ojxyficxzh@gmail.com
+URL    : http://www.biokub.se/prise.aspx
+Whois  : http://whois.arin.net/rest/ip/175.42.27.115
+Comment: 
+How Much You Love Watching Comedy Sitcoms Many of us are hardcore fans of comedy sitcoms. If there was a marathon of comedy sitcoms running for a day, we would be watching them sitting on our couch with loads of snacks. Office work, dropping the kids to school, attending your daughter's ballet classes, all these things won't come to our mind. We would be immersed in the world of comedy that sometimes we wish our life was filled with humor and funny situations. It is a known fact that many of us would like to be as one of the comedy characters that appear in the comedy sitcoms. Okay, it may sound funny, but it is true. What could be more pleasing and fun in making others laugh. We may become a laughing stock and sometimes treated as an idiot. Yeah! It is fine, so long as you can just make people split into laughter and get them out of their comfort zone. Take the example of the character 'Joey' from the sitcom 'Friends'. Joey is not that intelligent and you may feel that he is a loser. Why? Because you have a character who likes to have the occasional fling with girls and never cares to have a longterm relationship. He could be termed as a nincompoop as he is not a good actor, but he still believes it and keeps acting in short commercials and sitcoms. Always his friends try to tell him about his acting skills, he gets irritated and creates a scene. The same can be said of 'Barney Stinson' of the sitcom 'How I Met Your Mother'. You have a character which is very much similar to Joey, but there is a slight difference. Barney is not stupid as Joey as he knows how to handle situations and is quite clever in it. Unlike Joey who finds it difficult to breakup with girls, Barney does it with amicable ease. You can say an updated version of Joey. Now another comedy sitcom that could make you sit up and watch is the '30 Rock'. At times you feel sorry for the character Liz Lemon, the main protagonist of the sitcom. She has to go through a lot in her daily office life that sometimes you feel it can be hard being the head writer of a network. The constant strange characters she keeps meeting in her office and her boss who uncannily interferes in her decision making and policies. It will make you splits in laughter seeing the way each character behaves and how Liz handles them. Another hilarious sitcom that you must watch on your Xfinity TV is the 'Modern Family'. You have a dysfunctional family where each character is different but somewhat related to a real family. Telling the story of three interrelated families that constantly do things which are above the expectation of a normal one is one thing that you will like. You have the character Jay Pritchett who is married to a beautiful wife. He finds it difficult to connect to his own daughter and sonin law, but somehow connects to his son's best friend through football. Like every family, this family has a long list of rebellious teenagers who do the usual things to irritate their family. Each character is very much different in their way of life and behavior but still they care for each other. They are situations where they pull each other's legs and make a mockery, but still the love as a family keeps them intact and blissful. It can be rightfully said that comedy sitcoms have become a part and parcel of our life. You may say that certain comedy sitcoms are stupid and have no story, but yet they do indulge you into the world of laughter and entertainment. You just cannot escape from that. Mark is a freelance writer and columnist. He writes articles on various topics like entertainment, sitcoms and celebrities. Besides writing articles, he never misses his daily dose of entertainment which he watches on his Xfinity TV.
+
+Approve it: http://luluplews.com/wp-admin/comment.php?action=approve&c=861
+Trash it: http://luluplews.com/wp-admin/comment.php?action=trash&c=861
+Spam it: http://luluplews.com/wp-admin/comment.php?action=spam&c=861
+Currently 808 comments are waiting for approval. Please visit the moderation panel:
+http://luluplews.com/wp-admin/edit-comments.php?comment_status=moderated
+

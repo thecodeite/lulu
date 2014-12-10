@@ -1,0 +1,972 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201407 will be lost/reset.
+# Last config file used to build this data file was /home/luluplew/tmp/awstats/awstats.luluplews.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2007                
+POS_TIME 2687                
+POS_VISITOR 15251               
+POS_DAY 28289               
+POS_DOMAIN 3575                
+POS_LOGIN 4477                
+POS_ROBOT 4632                
+POS_WORMS 4959                
+POS_EMAILSENDER 5090                
+POS_EMAILRECEIVER 5233                
+POS_SESSION 29201               
+POS_SIDER 29415               
+POS_FILETYPES 5368                
+POS_DOWNLOADS 5703                
+POS_OS 6009                
+POS_BROWSER 6161                
+POS_SCREENSIZE 6954                
+POS_UNKNOWNREFERER 7028                
+POS_UNKNOWNREFERERBROWSER 7561                
+POS_ORIGIN 8163                
+POS_SEREFERRALS 8309                
+POS_PAGEREFS 8477                
+POS_SEARCHWORDS 9180                
+POS_KEYWORDS 9431                
+POS_MISC 2350                
+POS_ERRORS 9602                
+POS_CLUSTER 4333                
+POS_SIDER_404 9782                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140801004505 92 21393 10231300948140
+FirstTime 20140701012041
+LastTime 20140731233737
+LastUpdate 20140801131427 92 0 91 0 0
+TotalVisits 1593                
+TotalUnique 325                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 325                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 30 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 85 121 1673760 31 37 514826
+1 76 85 553880 25 31 2505526
+2 75 117 1853350 23 26 91288
+3 85 121 1645564 23 24 102772
+4 65 65 184450 19 23 60154
+5 78 114 1605456 17 25 162975
+6 78 78 197689 30 32 43861
+7 90 175 5916773 24 34 222332
+8 107 115 508935 17 21 23801
+9 255 747 120585768 36 54 1668748
+10 732 855 19056471 34 42 504555
+11 234 345 6733543 86 132 10303332
+12 160 481 151371127 29 60 7120586
+13 186 588 129944121 76 109 486534
+14 315 1065 94026878 36 52 3301657
+15 248 311 5907907 23 30 159821
+16 246 472 160517477 61 73 187320
+17 127 217 29715284 46 57 373052
+18 90 143 2525923 22 32 134798
+19 118 321 68086644 13 17 35115
+20 132 236 30871576 16 21 46776
+21 263 378 33625352 17 36 2126546
+22 87 198 53757131 23 31 133594
+23 157 412 96433779 36 48 493932
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 45
+gb 2394 5343 869344701
+us 619 761 60300201
+it 206 249 7515766
+ua 116 117 408915
+fr 89 152 26001181
+nl 69 69 222318
+br 63 301 9644389
+de 55 64 566546
+ru 49 76 1250934
+kz 49 49 148813
+sa 49 49 157878
+cn 38 58 982135
+ro 32 41 459920
+ca 27 27 86994
+jp 25 34 437366
+id 22 22 70884
+at 16 16 57168
+vn 14 14 45108
+hu 14 14 45108
+tr 13 13 41886
+sg 12 12 38664
+se 11 11 35442
+be 11 11 35442
+hk 10 10 32220
+fi 10 10 135038
+pt 2 11 363260
+ph 8 8 48240
+es 8 35 1096224
+my 1 1 3222
+lv 7 7 0
+mx 6 33 1089780
+ci 2 11 363422
+in 2 11 363260
+co 6 32 1055551
+cz 8 8 25776
+by 4 4 38137
+lt 4 4 12888
+hr 2 11 363260
+pr 2 11 363422
+np 1 1 3222
+cl 2 11 363260
+jm 2 11 363260
+ch 4 4 12888
+ar 4 22 726520
+lu 1 1 8838
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+googlebot 177 21438226 20140731160213 24
+bot[\s_+:,\.\;\/\\-] 33 159806 20140728023534 24
+unknown 27 1593 20140723115717 27
+no_user_agent 1 3037 20140704233756 0
+netcraft 1 9000 20140710214836 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+eot 1 52888 0 0
+css 765 1867138 0 0
+png 680 253888688 0 0
+ico 6 5750 0 0
+woff 1 108560 0 0
+swf 1 8452 0 0
+php 2923 50038711 0 0
+mp4 39 12016957 0 0
+html 1163 13728462 0 0
+js 869 25050491 0 0
+jpg 1243 598494831 0 0
+svg 11 3096490 0 0
+gif 54 400061 0 0
+ogv 4 11537511 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 7
+/robots.txt 75 0 3831
+/landingvid/lulupt1.mp4 11 105 6429842
+/landingvid/lulupt2.ogv 3 22 14307293
+/landingvid/lulupt1.ogv 2 21 11762672
+/landingvid/lulupt2encoded.mp4 1 0 634525
+/landingvid/lulupt1encoded.mp4 1 0 337849
+/landingvid/lulupt2.mp4 1 34 5349869
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 10
+linuxandroid 15
+winlong 6
+winxp 122
+winnt 6
+linuxubuntu 2
+winvista 1
+linux 7
+win7 2158
+macosx 4537
+Unknown 1088
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 46
+msie6.0 17
+firefox28.0 4
+safari7.0 744
+firefox20.0 1
+chrome24.0.1309.0 1
+firefox26.0 1
+android 15
+chrome22.0.1229.79 1
+chrome36.0.1985.125 13
+curl 4
+chrome31.0.1650.63 11
+firefox24.0 3
+opera9.80 2
+iphone 68
+msie8.0 12
+safari6.1.2 200
+chrome24.0.1290.1 1
+chrome26.0.1410.65 1
+chrome33.0.1750.154 708
+chrome28.0.1500.52 2
+msie9.0 148
+firefox27.0 1
+Unknown 1095
+chrome34.0.1847.131 5
+chrome13.0.782.24 1
+firefox29.0 95
+msie5.5 2
+firefox30.0 1394
+chrome28.0.1500.71 5
+chrome13.0.782.215 19
+safari6.1.5 1457
+chrome32.0.1700.107 194
+safari5.1.7 1
+chrome24.0.1312.60 2
+mozilla 55
+chrome35.0.1916.153 1463
+firefox14.0.1 2
+firefox22.0 1
+msie10.0 7
+firefox6.0 5
+netscape4.0 24
+firefox3.6.18 13
+firefox3.6.12 1
+firefox3.6.3 1
+firefox8.0.1 20
+safari 122
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+Feedfetcher-Google;_(_http://www.google.com/feedfetcher.html;_1_subscribers;_feed-id=13127638488489469909) 20140731214418
+panscient.com 20140723115722
+Mozilla/4.0 20140711131309
+WordPress/3.8.3;_http://luluplews.com 20140731233038
+curl/7.35.0 20140725011536
+Mozilla/5.0_(compatible;_WebMasterAid/1.0;__http://wmaid.com/explore/) 20140714092759
+Mozilla/4.0_(compatible;_Synapse) 20140711043822
+wsr-agent/1.0 20140727223458
+NerdyBot 20140731154912
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+Feedfetcher-Google;_(_http://www.google.com/feedfetcher.html;_1_subscribers;_feed-id=13127638488489469909) 20140731214418
+AppleCoreMedia/1.0.0.11A465_(iPad;_U;_CPU_OS_7_0_like_Mac_OS_X;_en_gb) 20140708115434
+AppleCoreMedia/1.0.0.11B554a_(iPad;_U;_CPU_OS_7_0_4_like_Mac_OS_X;_en_gb) 20140711233352
+panscient.com 20140723115722
+WordPress/3.8.3;_http://luluplews.com 20140731233038
+wsr-agent/1.0 20140727223458
+NerdyBot 20140731154912
+AppleCoreMedia/1.0.0.11G63b_(Macintosh;_U;_Intel_Mac_OS_X_10_7_5;_en_us) 20140730154110
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1251 1526
+From1 1 1
+From2 17 17
+From3 62 62
+From4 2758 6336
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 16 16
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 14
+http://semalt.semalt.com/crawler.php 43 43
+http://youtube-downloader.savetubevideo.com/youtube-downloader.php 5 5
+http://instagram.com/luluplews 2 2
+http://wmaid.com/explore/luluplews.com/ 2 2
+http://30.kambasoft.com/2.php 1 1
+http://artifact.spb.ru 1 1
+http://8.kambasoft.com/2.php 1 1
+http://23.kambasoft.com/2.php 1 1
+https://e.mail.ru/message/14109017775/123881873530 1 1
+http://56.kambasoft.com/2.php 1 1
+http://electrolivefest.spb.ru/news/1287.htm 1 1
+http://5.kambasoft.com/2.php 1 1
+http://www.yugk.net 1 1
+http://musicas.kambasoft.com/2.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 4
+granger+whitelaw+avia 2
+easylifeapp+profile 2
+luluplews.com 1
+online+reputation+management+akado 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 10
+profile 2
+whitelaw 2
+avia 2
+granger 2
+easylifeapp 2
+reputation 1
+luluplews.com 1
+akado 1
+online 1
+management 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+403 9 79704
+206 25 6589951
+400 1 26
+401 3 1143
+302 118 0
+500 9 0
+508 4 29148
+404 242 2492029
+301 367 238
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 104
+/wp-content/themes/duo/assets/js/eventEmitter/EventEmitter 1 -
+/ 11 -
+/video/x-flv 1 -
+/twitter.com/https:/twitter.com/lulu_plews 1 -
+/wp-content/plugins/wp-super-cache/Changelog.phpindex.php 1 http://luluplews.com/wp-content/plugins/wp-super-cache/Changelog.phpindex.php
+/wp-content/themes/duo/assets/js/matches-selector/matches-selector 1 -
+/portfolio/paper-dolls/ 1 http://luluplews.com/wp-admin/post.php
+/wp-content/themes/duo/assets/js/get-style-property/get-style-property 1 -
+/wp-content/themes/duo/timthumb.php 1 -
+/wp-content/themes/duo/assets/js/application/x-shockwave-flash 1 -
+/contact/thankyou.php 1 -
+/wp-content/themes/duo/assets/js/isotope/js/layout-mode 1 -
+/eventie/eventie 2 -
+/outlayer/outlayer 1 -
+/wp-content/themes/duo/assets/js/jplayer/audio/x-flv 1 -
+/portfolio/mica-noble/feed/ 1 -
+/comments/feed/ 14 http://luluplews.com/comments/feed/
+/portfolio/new-look-one-dress-five-looks/feed/ 1 -
+/editor/editor/filemanager/connectors/test.html 3 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/test.html 3 -
+/fckeditor/editor/filemanager/browser/default/connectors/test.html 3 -
+/wp-content/themes/duo/assets/js/{path} 2 -
+/portfolio/petite-noir-noirse/feed/ 1 -
+/portfolio/tommy/feed/ 1 -
+/wp-content/themes/duo/assets/js/outlayer/item 1 -
+/wp-content/themes/duo/thumb.php 1 -
+/portfolio/1058/feed/ 1 -
+/portfolio/the-wombats-3/feed/ 1 -
+/get-style-property/get-style-property 1 -
+/wp-content/themes/duo/assets/js/isotope/js/layout-modes/vertical 1 -
+/wp-content/themes/duo/assets/js/isotope/js/layout-modes/fit-rows 1 -
+/admin/fckeditor/editor/filemanager/connectors/test.html 3 -
+/user/register 1 -
+/portfolio/new-look-one-fine-day/feed/ 1 -
+/portfolio/dionne/feed/ 1 -
+/wp-content/themes/duo/assets/js/video/quicktime 2 -
+/wp-content/plugins/akismet/akismet.php 1 -
+/wp-content/plugins/formidable/pro/js/ofc-library/ofc_upload_image.php 1 -
+/eventEmitter/EventEmitter 2 -
+/Jplayer.swf 1 -
+/portfolio/lexy-and-the-kill/feed/ 1 -
+/doc-ready/doc-ready 1 -
+/portfolio/bipolar-sunshine/feed/ 1 -
+/wp-content/themes/duo/assets/js/isotope/js/layout-modes/masonry 1 -
+/wp-content/themes/duo/includes/uploadify/upload_settings_image.php 1 -
+/portfolio/lauren-baker-2/feed/ 1 -
+/outlayer/item 1 -
+/jquery-bridget/jquery.bridget 1 -
+/portfolio/maria-pizeria-for-juju-jelly-shoes/feed/ 1 -
+/get-size/get-size 1 -
+/wp-content/themes/duo/assets/js/eventie/eventie 1 -
+/editor/filemanager/browser/default/connectors/test.html 3 -
+/default.php 2 http://luluplews.com/default.php
+/isotope/js/layout-modes/fit-rows 1 -
+/portfolio/the-wombats-2/feed/ 1 -
+/portfolio/ministry-of-sound-sound-of-trap/feed/ 1 -
+/wp-content/plugins/wp-super-cache/Changelog.php 1 http://luluplews.com/wp-content/plugins/wp-super-cache/Changelog.php
+/wp-content/uploads/2014/02/micaNoble.jpg 1 -
+/wp-content/themes/duo/assets/js/doc-ready/doc-ready 1 -
+/portfolio/new-look-behind-the-scenes-on-one-fine-day/feed/ 1 -
+/portfolio/rick-kelly-fashion-photographer/feed/ 1 -
+/wp-content/themes/duo/assets/layout-mode 1 -
+/http:/195.8.196.20/wp-login.php 15 http://luluplews.com/http://195.8.196.20/wp-login.php
+/portfolio/omarose/feed/ 1 -
+/wp-content/themes/duo/assets/js/get-size/get-size 1 -
+/wp-content/themes/duo/assets/js/masonry/masonry 1 -
+/application/x-shockwave-flash 1 -
+/fckeditor/editor/filemanager/connectors/test.html 3 -
+/video/quicktime 1 -
+/portfolio/lauren-baker/feed/ 1 -
+/isotope/js/layout-modes/vertical 1 -
+/wp-content/plugins/wysija-newsletters/readme.txt 1 http://luluplews.com/wp-content/plugins/wysija-newsletters/readme.txt
+/work/wp-content/themes/duo/assets/img/loading.gif 71 http://luluplews.com/work/
+/embed/ 1 -
+/isotope/js/layout-modes/masonry 1 -
+/manage/fckeditor/editor/filemanager/browser/default/connectors/test.html 3 -
+/webmanage/fckeditor/editor/filemanager/connectors/test.html 3 -
+/portfolio/foxes/feed/ 1 -
+/portfolio/sabina-motassem-wedding-dress-designer/feed/ 1 -
+/portfolio/majestic-casual-chapter-1/feed/ 1 -
+/wp-content/themes/duo/assets/js/jplayer/video/x-flv 1 -
+/portfolio/elliot/feed/ 1 -
+/wp-content/uploads/wysija/themes/miumlvmh/skashu.php 5 http://luluplews.com/wp-content/uploads/wysija/themes/miumlvmh/skashu.php
+/item 1 -
+/wp-content/themes/duo/assets/js/jquery-bridget/jquery.bridget 1 -
+/portfolio/professor-green/feed/ 1 -
+/wp-content/uploads/2013/10/Sony-Foxes-PR_858.jpg 4 http://lanaboards.com/index.php
+/isotope/js/item 1 -
+/wp-content/plugins/lightbox-plus/css/framed/colorbox.css 1 http://luluplews.com/wp-content/plugins/lightbox-plus/css/framed/colorbox.css
+/portfolio/hetti/feed/ 1 -
+/audio/x-flv 1 -
+/portfolio/elle-watson/feed/ 1 -
+/portfolio/nadia-scullion/feed/ 1 -
+/wp 1 -
+/portfolio/matthew-herbert-cafe-de-flore/feed/ 1 -
+/isotope/js/layout-mode 1 -
+/google-code-prettify.googlecode.com/svn/loader/run_prettify.js 4 http://luluplews.com//google-code-prettify.googlecode.com/svn/loader/run_prettify.js
+/layout-mode 1 -
+/masonry/masonry 1 -
+/wp-content/themes/duo/assets/js/item 1 -
+/wp-content/themes/duo/assets/js/isotope/js/item 1 -
+/wp-content/themes/duo/themify/css/themify-ui.css 1 -
+/wp-content/themes/duo/assets/js/outlayer/outlayer 1 -
+/matches-selector/matches-selector 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 325
+195.8.196.20 652 652 0 20140731233038
+82.132.237.127 556 692 8222070 20140711101744
+87.81.229.149 399 903 215849114 20140716164238
+217.33.171.164 257 1099 112931742 20140714142612
+94.91.14.172 200 227 6460053 20140723105129
+149.254.183.17 181 253 29968197 20140703212411
+90.199.143.94 139 498 149677205 20140718204219
+96.242.31.228 93 105 1709644 20140723115722
+64.34.173.227 58 58 186876 20140731070125
+86.132.149.39 54 54 159564 20140715231235
+37.151.65.38 49 49 148813 20140702133328
+5.135.165.206 49 49 157878 20140731051332
+178.137.34.186 42 42 133844 20140722053454
+87.255.57.169 39 39 125658 20140731140524
+66.249.89.72 38 38 179360 20140731214418
+178.137.41.108 32 32 97184 20140726203813
+90.199.81.39 29 266 87311603 20140707235813
+32.42.24.180 29 148 50315825 20140715140624
+66.249.92.168 24 24 113280 20140723155905
+2.218.113.144 22 92 31056219 20140730154209
+66.249.89.82 22 22 103840 20140731092319
+46.105.105.58 19 19 61971 20140724143134
+66.249.89.77 19 19 89680 20140731002949
+46.165.206.78 17 17 54774 20140707103222
+210.210.178.20 17 17 54774 20140724160404
+50.63.57.211 4 4 12888 20140725223411
+112.64.235.90 1 6 206343 20140709125752
+108.59.85.16 1 1 8838 20140711162449
+198.57.210.25 7 7 22554 20140731173345
+46.105.14.54 8 8 25776 20140729074437
+192.249.56.190 4 4 12888 20140729085941
+200.103.167.107 2 11 363308 20140711022002
+31.24.36.35 1 1 3222 20140722224632
+146.148.44.102 1 1 8838 20140723163548
+2.126.57.222 4 63 24761804 20140730194832
+58.26.128.114 1 1 3222 20140721155638
+184.172.57.26 1 1 3222 20140723163927
+146.148.37.49 1 1 8838 20140718155216
+72.32.198.216 1 1 3222 20140721222614
+141.85.227.117 6 6 19332 20140730000809
+97.74.127.145 5 5 16110 20140724090347
+66.249.91.134 4 4 18880 20140728164715
+66.249.90.182 9 9 42480 20140713114826
+91.207.7.254 3 3 51006 20140729194327
+66.249.91.119 7 7 33040 20140710010514
+195.154.226.99 5 5 16110 20140730031807
+89.44.232.27 3 3 9666 20140731213505
+189.28.184.163 2 11 363260 20140712213549
+212.46.235.178 10 10 32220 20140720192333
+190.138.71.170 2 11 363260 20140722051422
+54.82.107.71 1 1 8838 20140728193243
+82.146.38.254 1 1 3037 20140728040557
+23.251.159.219 1 1 9000 20140703155114
+162.222.183.102 1 1 8838 20140714181046
+89.200.138.207 4 4 12888 20140723202746
+162.223.10.198 6 6 100026 20140728160625
+184.168.112.26 1 1 3222 20140701012041
+180.153.206.35 1 6 206343 20140705125807
+82.132.234.189 3 36 5295741 20140710075253
+103.9.101.81 9 9 28998 20140731084150
+146.148.39.184 2 2 17676 20140726155110
+37.59.29.48 15 15 48330 20140714063008
+146.148.42.240 1 1 8838 20140720171828
+89.31.97.232 1 1 3222 20140724102608
+192.99.147.201 6 6 96420 20140730180143
+103.251.90.116 4 4 12888 20140727203757
+198.50.28.186 1 1 9000 20140708151959
+5.15.198.41 2 11 363260 20140721150351
+178.137.45.117 10 10 30370 20140730193121
+66.249.89.83 8 8 37760 20140708005424
+89.22.253.52 1 1 3037 20140710190355
+189.111.95.1 2 11 363422 20140702191506
+54.191.15.204 1 1 9000 20140705011633
+109.197.193.202 5 5 16110 20140720192319
+213.205.232.143 4 14 650608 20140717135751
+72.55.161.39 1 1 3222 20140723111541
+192.169.82.198 3 3 9666 20140727141201
+64.64.9.78 2 2 6444 20140723030742
+66.249.89.73 14 14 66080 20140711121745
+122.213.243.131 3 3 9666 20140731155259
+173.236.152.13 1 1 3222 20140723002914
+86.124.88.48 7 7 22554 20140731121304
+189.245.130.122 2 11 363260 20140723051343
+82.146.38.119 1 1 3037 20140723095127
+66.249.90.169 9 9 42480 20140713025624
+109.120.182.26 2 2 9489 20140724015948
+177.70.21.29 8 8 25776 20140731233120
+85.214.33.150 4 4 12888 20140727012258
+146.148.32.206 1 1 8838 20140713155107
+66.249.90.195 6 6 28320 20140712180144
+70.45.55.213 2 11 363422 20140709030823
+125.253.118.46 4 4 12888 20140730044702
+66.249.92.181 16 16 75520 20140723222654
+62.24.181.134 1 4 219674 20140716231523
+180.153.205.254 2 12 412524 20140711125758
+130.211.146.139 1 1 9000 20140709155044
+69.58.178.59 2 2 17676 20140715005821
+66.249.91.135 11 11 51920 20140709220654
+109.72.80.219 1 1 3222 20140728123640
+213.123.183.219 11 26 4155156 20140717135645
+82.132.221.99 3 70 25282753 20140723125859
+188.40.249.84 1 1 8838 20140718014547
+153.192.107.1 2 11 363260 20140727111636
+177.188.97.121 2 11 363260 20140720004401
+130.211.179.86 1 1 9000 20140702154820
+213.205.229.251 2 2 137390 20140731151413
+78.1.166.135 2 11 363260 20140726230938
+69.163.152.125 1 1 3222 20140721205436
+72.27.181.11 2 11 363260 20140724134321
+149.254.218.37 6 8 190426 20140709214014
+149.254.219.85 2 10 153662 20140710231144
+162.243.21.120 2 2 6444 20140723030740
+86.149.169.123 6 67 1173074 20140702094738
+192.210.141.184 3 3 9666 20140729204918
+91.121.86.86 2 2 6444 20140723002917
+177.36.62.69 2 11 363260 20140719002010
+192.99.200.213 4 4 38618 20140711144609
+177.207.111.197 2 11 363260 20140726182341
+91.223.223.155 3 3 9666 20140724200324
+128.73.226.208 2 11 363260 20140716032355
+91.123.193.54 11 11 35442 20140731155234
+198.178.124.47 1 1 8838 20140727062941
+85.59.12.198 2 11 363260 20140730150353
+146.148.46.30 1 1 8838 20140729154730
+216.98.196.14 5 5 16110 20140729043010
+82.132.225.83 4 43 4420653 20140731153252
+202.177.25.123 9 9 28998 20140731174607
+93.170.82.35 5 5 16110 20140709125611
+82.79.27.158 1 1 3222 20140721232731
+173.214.189.104 8 8 25776 20140731233038
+82.132.222.244 2 26 5172798 20140729132446
+146.148.45.115 1 1 8838 20140717155153
+146.148.32.139 1 1 8838 20140731154912
+66.249.89.78 10 10 47200 20140711092314
+50.63.130.155 2 2 6444 20140722112915
+146.148.47.79 1 1 8838 20140716155140
+116.202.120.29 2 11 363260 20140713163638
+162.144.42.176 1 1 3222 20140721073938
+50.97.138.111 1 1 3222 20140724090345
+201.139.158.52 2 11 363260 20140712213208
+84.174.228.6 2 11 363422 20140701164742
+183.90.191.26 1 1 3222 20140722191758
+62.210.129.169 1 1 8838 20140712171857
+146.148.33.142 1 1 8838 20140728154655
+93.113.20.99 4 4 12888 20140730044658
+66.249.92.195 6 6 28320 20140707094825
+87.117.189.100 1 1 8838 20140724142051
+37.59.35.4 4 4 12888 20140725154327
+95.238.27.234 2 11 363422 20140708182348
+178.137.38.153 4 4 12148 20140728162955
+86.150.42.47 9 20 3727316 20140717135646
+37.187.79.43 4 4 12888 20140725163328
+117.169.1.97 1 1 18085 20140727125148
+188.121.62.249 10 10 32220 20140718023621
+146.148.45.50 1 1 9000 20140710155143
+80.249.163.1 6 6 19332 20140731140416
+54.91.46.228 1 1 8838 20140718101452
+146.148.42.223 1 1 9000 20140707155102
+193.225.21.162 1 1 3222 20140722043615
+46.4.48.68 1 1 9000 20140709022638
+195.228.188.6 3 3 9666 20140728092315
+178.137.43.108 5 5 15185 20140727201429
+173.255.217.143 1 1 3222 20140723030742
+187.24.73.171 2 10 329031 20140720182819
+66.249.89.33 1 1 4720 20140703222325
+189.169.18.65 2 11 363260 20140728002603
+146.148.46.162 1 1 8838 20140727155058
+174.140.165.147 1 1 3222 20140721084302
+66.249.92.182 5 5 23600 20140707065655
+108.59.254.26 2 2 6444 20140724143136
+186.225.29.46 2 11 363260 20140716171309
+188.165.202.118 10 10 32220 20140731000100
+123.30.208.178 3 3 9666 20140728092329
+36.248.162.188 1 1 16671 20140730024721
+216.222.148.52 8 8 25776 20140731210732
+146.148.34.173 1 1 9000 20140705155153
+109.75.166.116 1 1 3222 20140722201302
+177.78.116.180 2 11 363260 20140712192315
+88.151.245.66 11 11 35442 20140731121237
+146.185.248.31 13 13 44971 20140729234251
+179.222.48.213 2 11 363260 20140718153850
+146.148.44.86 1 1 9000 20140708155048
+186.36.124.88 2 11 363260 20140723202538
+203.195.184.151 13 13 41886 20140730213600
+162.211.82.114 5 5 16110 20140729204323
+221.132.33.175 3 3 9666 20140725193333
+50.63.85.76 1 1 3222 20140721133216
+179.147.242.195 2 11 363260 20140711202000
+91.109.3.166 7 7 22554 20140730150522
+64.15.138.14 10 10 32220 20140728100029
+82.132.215.190 2 56 24589695 20140719170039
+83.96.132.85 14 14 45108 20140724143137
+70.162.181.199 2 13 1143782 20140728192111
+212.85.38.92 2 2 6444 20140729072659
+59.44.60.161 2 2 6444 20140730203054
+82.118.18.238 1 2 9255 20140713070601
+186.247.171.198 2 11 363260 20140729142842
+177.47.114.36 2 11 363260 20140725053527
+177.159.211.149 2 11 363260 20140731200701
+50.2.223.207 6 6 19332 20140728040013
+209.59.164.209 2 2 6444 20140727234710
+23.23.222.104 1 1 8838 20140723104410
+186.237.106.48 2 11 363260 20140727054538
+37.187.28.190 1 1 8838 20140726001705
+78.47.201.234 2 2 17676 20140730153213
+66.249.93.64 1 1 8886 20140710231207
+66.249.92.194 11 11 51920 20140723114637
+94.138.219.186 6 6 19332 20140731174611
+142.4.23.60 1 1 3222 20140726013204
+216.38.216.197 11 19 1846062 20140713165118
+191.216.159.51 2 10 329031 20140718144317
+83.96.250.58 4 4 12888 20140728130418
+88.190.45.37 9 9 28998 20140731213453
+203.124.105.80 1 1 3222 20140723220510
+144.76.219.151 4 4 12888 20140731140528
+66.249.91.103 8 8 37760 20140710100247
+64.207.147.191 2 2 6444 20140707103017
+146.148.45.18 1 1 8838 20140721155212
+146.148.40.157 1 1 9000 20140706155015
+94.242.222.44 1 1 8838 20140715163140
+123.30.137.219 4 4 12888 20140731103012
+202.70.136.15 2 2 6444 20140726135629
+5.79.65.102 1 1 3222 20140722015955
+94.23.28.193 4 4 12888 20140730114155
+46.31.183.3 4 4 12888 20140725042744
+199.80.59.175 1 1 9000 20140710090823
+64.207.181.55 3 3 9666 20140722201302
+188.92.76.167 7 7 0 20140715142724
+187.11.124.230 2 11 363260 20140725184626
+66.147.235.81 3 3 9666 20140724061849
+89.223.53.7 2 2 17676 20140728110904
+66.249.81.64 4 4 35676 20140717134623
+46.4.20.133 9 9 28998 20140730203059
+189.68.113.202 2 8 232729 20140717021548
+176.9.195.105 2 2 6444 20140726034044
+59.60.113.125 1 1 16671 20140731062046
+118.139.162.178 1 1 3222 20140701022148
+74.86.72.18 2 2 6444 20140731194030
+31.193.192.184 4 4 12888 20140731041207
+212.82.217.9 9 9 28998 20140730145934
+5.9.121.109 11 11 35442 20140705083918
+177.180.202.120 2 11 363308 20140711033337
+95.0.26.85 5 5 16110 20140721053452
+92.243.25.211 2 2 6444 20140727120633
+107.178.212.13 1 1 9000 20140701154822
+104.131.238.145 4 4 35352 20140725011536
+190.138.228.191 2 11 363260 20140720115844
+46.163.78.167 1 1 3222 20140727093657
+188.191.53.8 3 3 9666 20140730183753
+148.251.75.46 1 1 12954 20140722175428
+88.136.210.91 2 11 363260 20140727181609
+187.85.201.254 2 11 363260 20140730174451
+219.232.242.210 1 1 3222 20140730083756
+108.178.57.146 3 3 9666 20140724073807
+184.171.240.27 6 6 19332 20140731194019
+114.113.145.149 2 2 6444 20140730221015
+54.207.31.52 5 5 16110 20140730052633
+177.34.117.110 2 11 363260 20140724211324
+112.78.44.28 3 3 9666 20140726231832
+146.148.35.107 1 1 9000 20140704155017
+166.63.127.244 4 4 12888 20140724160406
+189.12.198.14 2 11 363260 20140720021430
+177.126.204.214 2 11 363260 20140724025225
+93.148.177.153 2 11 363260 20140722093815
+23.251.153.247 1 1 8838 20140715161224
+151.65.242.253 2 10 329031 20140716083805
+67.227.174.86 6 6 19332 20140730021447
+212.48.66.246 6 6 19332 20140731104321
+149.254.186.225 3 59 167485 20140708075834
+189.13.8.69 2 11 363422 20140708134618
+177.75.153.108 2 11 363260 20140725002622
+78.147.69.138 4 62 24909167 20140716230325
+178.172.184.110 1 1 0 20140706225334
+79.155.203.124 2 11 363260 20140722112358
+91.227.4.98 1 1 3222 20140721175215
+151.236.51.55 4 4 12888 20140727012219
+69.64.56.146 5 5 16110 20140724033437
+69.175.111.218 9 9 28998 20140728160722
+60.12.119.200 12 12 38664 20140723220516
+187.61.117.2 2 11 363260 20140726012403
+213.205.228.157 4 65 26870049 20140730160319
+72.46.131.197 2 2 35328 20140730201506
+23.236.53.44 1 1 8838 20140722155135
+82.132.229.129 8 159 26659418 20140715132254
+188.165.201.137 2 2 6444 20140728102452
+209.85.238.126 3 3 14160 20140707125614
+146.148.46.191 1 1 8838 20140725183710
+213.205.241.112 3 63 25001426 20140711091238
+82.145.33.37 1 1 8838 20140716094252
+146.148.36.175 1 1 8838 20140730154625
+82.132.230.190 1 9 233184 20140724215839
+92.234.237.210 6 66 28519380 20140710225113
+41.189.49.47 2 11 363422 20140704111449
+66.249.91.102 7 7 33040 20140729104810
+91.109.14.204 4 4 12888 20140731051312
+83.45.72.204 2 11 363260 20140730031358
+178.124.140.162 3 3 38137 20140705040715
+31.210.98.179 1 1 3222 20140721130222
+191.254.2.9 2 11 363260 20140729234955
+118.139.181.70 1 1 3222 20140721155640
+188.29.165.223 6 50 1614681 20140708115432
+103.16.180.113 4 4 12888 20140723192058
+142.4.25.235 5 5 16110 20140726074333
+194.87.50.135 2 2 6444 20140725043326
+66.249.92.169 4 4 18880 20140714145725
+23.238.179.36 1 1 3222 20140722085014
+66.249.91.118 5 5 23600 20140728224925
+189.115.115.137 2 11 363260 20140727024730
+79.168.189.172 2 11 363260 20140726234742
+199.80.59.174 1 1 9000 20140703043008
+110.44.123.159 1 1 3222 20140726155955
+130.211.188.207 1 1 8838 20140712155046
+146.148.45.101 1 1 8838 20140724155216
+106.187.47.170 16 16 51552 20140722191757
+46.118.247.62 6 6 18222 20140731193656
+186.85.109.54 2 11 363260 20140716212056
+177.0.79.20 2 11 363260 20140731181212
+198.58.113.252 9 15 3019656 20140727223458
+85.204.118.142 9 9 28998 20140731103009
+123.125.244.216 1 1 8838 20140724211433
+62.24.181.135 2 5 228833 20140716231520
+212.234.218.51 6 60 25370570 20140729132721
+189.94.28.79 2 10 329031 20140731233737
+187.75.46.236 2 11 363422 20140709173520
+31.193.133.4 1 1 3222 20140721080116
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20140701 49 58 464956 37
+20140702 120 305 42695151 42
+20140703 229 351 52341475 41
+20140704 57 127 31357512 42
+20140705 47 52 351792 40
+20140706 45 45 113756 39
+20140707 188 609 65452625 40
+20140708 51 144 3587661 35
+20140709 56 81 1234147 38
+20140710 61 164 39157993 42
+20140711 708 1317 137965998 47
+20140712 57 93 1574414 44
+20140713 60 130 27415099 41
+20140714 157 366 49367539 43
+20140715 185 439 78180279 47
+20140716 466 1054 244438817 51
+20140717 71 101 10302689 42
+20140718 58 137 28735430 33
+20140719 54 117 25101471 44
+20140720 60 95 1539515 42
+20140721 80 89 549013 62
+20140722 92 119 1321382 72
+20140723 388 497 39642653 76
+20140724 95 130 1601288 77
+20140725 86 113 1315063 72
+20140726 90 126 1650858 67
+20140727 98 140 4755242 73
+20140728 81 99 2527521 67
+20140729 103 199 31520284 66
+20140730 111 312 85229360 65
+20140731 86 151 5807855 66
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 66
+5mn-15mn 26
+15mn-30mn 33
+2mn-5mn 11
+30s-2mn 12
+0s-30s 1362
+30mn-1h 83
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 105
+/wp-login.php 902 2888077 771 768
+/wp-cron.php 652 0 367 367
+/work/ 457 6318501 12 11
+/wp-content/themes/duo/inc/contact-form.php 415 29399 0 0
+/wp-admin/admin-ajax.php 394 676290 5 9
+/feed/ 250 1180000 247 247
+/wp-content/themes/duo/assets/css/minified.css.php 247 29959618 2 81
+/ 220 2081568 168 85
+/wp-admin/load-scripts.php 117 4941054 0 0
+/wp-admin/load-styles.php 29 1611183 0 0
+/wp-admin/edit.php 29 2274010 0 0
+/wp-admin/post.php 27 2129209 0 0
+/wp-admin/ 22 957379 1 1
+/register/ 21 330406 1 1
+/contact/ 19 308265 0 1
+/portfolio/nadia-scullion/ 15 251479 10 9
+/about/ 10 137205 0 1
+/wp-includes/js/tinymce/wp-tinymce.php 10 1162650 0 0
+/wp-admin/options-general.php 10 536035 0 0
+/portfolio/paper-dolls/ 9 205227 0 0
+/portal/login-page/ 9 117370 0 0
+/wp-admin/async-upload.php 8 10510 0 0
+/wp-admin/plugins.php 8 341059 0 0
+/wp-admin/index.php 7 262171 0 0
+/client-list/ 7 104073 0 1
+/portfolio/omarose/ 1 15451 0 0
+/wp-admin/post-new.php 3 219724 0 0
+/portfolio/sabina-motassem-wedding-dress-designer/ 4 71173 1 0
+/wp-content/themes/duo/assets/img/prettyPhoto/default/ 1 717 0 0
+/wp-admin/admin-post.php 1 0 1 1
+/wp-admin/users.php 6 218790 0 0
+/portfolio/lexy-and-the-kill/ 2 33512 0 0
+/wp-content/themes/duo/assets/fonts/ 1 611 0 0
+/wp-includes/js/tinymce/plugins/wpeditimage/editimage.html 1 11985 0 0
+/lauren-baker-in-vogue/ 2 31572 0 0
+/pricing/ 5 83813 0 2
+/wp-content/themes/duo/assets/js/ 6 3198 0 0
+/wp-admin/tools.php 3 77250 0 0
+/portfolio/the-wombats-2/ 1 16284 0 0
+/wp-admin/user-edit.php 5 176667 0 0
+/xmlrpc.php 2 1436 0 1
+/contact-thankyou/ 6 86552 0 1
+/portfolio/new-look-one-dress-five-looks/ 2 31464 0 0
+/portfolio/petite-noir-noirse/ 2 31594 0 0
+/portfolio/mica-noble/ 5 65630 0 0
+/wp-admin/widgets.php 2 166162 0 0
+/wp-admin/nav-menus.php 4 1074632 0 0
+/portfolio/elliot/ 2 31996 0 0
+/portfolio/new-look-behind-the-scenes-on-one-fine-day/ 4 64348 0 0
+/portfolio/rick-kelly-fashion-photographer/ 1 15966 0 0
+/2014/05/ 1 13238 0 0
+/author/rob/ 1 14406 1 0
+/wp-admin/customize.php 4 82568 0 0
+/wp-admin/upload.php 1 72535 0 0
+/portfolio/atc/ 4 58010 0 0
+/client-area/ 1 11976 0 0
+/portfolio/majestic-casual-chapter-1/ 1 15836 0 0
+/test-post/ 1 16260 0 0
+/portfolio/matthew-herbert-cafe-de-flore/ 2 31666 0 0
+/wp-content/themes/duo/assets/fonts/Elusive-Icons.eot 1 52888 0 0
+/landing-video/feed/ 1 724 0 0
+/portfolio/annouk/ 1 16972 0 0
+/wp-admin/options-reading.php 6 173510 0 0
+/portfolio/lisa-stein/ 3 57832 0 0
+/wp-admin/plugin-editor.php 1 30683 0 0
+/portfolio/the-wombats-3/ 1 15268 0 0
+/wp-content/themes/duo/assets/ 1 420 0 0
+/articles/ 7 113078 0 1
+/wp-content/themes/duo/assets/img/ 1 955 0 0
+/sample-page/ 1 12954 1 1
+/portfolio/fashion-targets-breast-cancer-with-dianne-oliver/ 2 35678 0 0
+/2014/04/ 1 12307 0 0
+/wp-admin/theme-editor.php 6 176637 0 0
+/portfolio/hetti/ 7 123648 4 2
+/wp-content/themes/duo/assets/fonts/Elusive-Icons.woff 1 108560 0 0
+/noah-and-the-whale-independent-interview/ 1 15900 0 0
+/portfolio/maria-pizeria-for-juju-jelly-shoes/ 2 36538 0 1
+/category/fashionandeditiorial/ 1 14295 0 0
+/portfolio/tommy/ 3 47604 0 0
+/portfolio/ministry-of-sound-sound-of-trap/ 1 15860 0 0
+/wp-content/themes/duo/assets/js/jplayer/ 1 506 0 0
+/portfolio/the-wombats/ 1 16233 0 0
+/portfolio/dionne/ 5 80528 1 1
+/portfolio/sleeping/ 2 35108 0 0
+/wp-admin/profile.php 4 98839 0 0
+/wp-admin/options-media.php 3 74829 0 0
+/wp-admin/options-writing.php 4 122455 0 0
+/portfolio/professor-green/ 2 31182 0 0
+/wp-content/themes/duo/assets/img/backgrounds/ 1 3433 0 0
+/portfolio/lauren-baker/ 2 32906 0 0
+/portfolio/new-look-one-fine-day/ 2 32108 0 0
+/wp-content/themes/duo/assets/img/prettyPhoto/ 1 367 0 0
+/author/admin/ 1 11854 0 0
+/portfolio/gotsome-featuring-the-get-along-gang-bassline/ 2 32080 0 0
+/portfolio/elle-watson/ 1 17175 0 0
+/portfolio/foxes/ 3 58875 0 0
+/portfolio/san-zhi-ice-light/ 1 15807 0 0
+/wp-content/themes/duo/assets/css/ 1 1251 0 0
+/portal/ 5 57374 0 0
+/wp-content/themes/duo/assets/js/jplayer/Jplayer.swf 1 8452 0 0
+/wp-admin/edit-comments.php 4 163245 0 0
+/wp-admin/themes.php 6 189345 0 0
+/wp-admin/options-discussion.php 3 98139 0 0
+/portfolio/lauren-baker-2/ 1 16239 0 0
+/portfolio/bipolar-sunshine/ 1 16672 0 0
+END_SIDER

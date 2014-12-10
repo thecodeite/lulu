@@ -1,0 +1,60 @@
+Return-path: <>
+Envelope-to: luluplew@tiger.speedyservers.com
+Delivery-date: Thu, 19 Jun 2014 22:30:38 +0100
+Received: from mailnull by tiger.speedyservers.com with local (Exim 4.82)
+	id 1Wxjuo-003oS7-Lb
+	for luluplew@tiger.speedyservers.com; Thu, 19 Jun 2014 22:30:38 +0100
+X-Failed-Recipients: rob@awesomecreative.co.uk
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@tiger.speedyservers.com>
+To: luluplew@tiger.speedyservers.com
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1Wxjuo-003oS7-Lb@tiger.speedyservers.com>
+Date: Thu, 19 Jun 2014 22:30:38 +0100
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  rob@awesomecreative.co.uk
+    SMTP error from remote mail server after end of data:
+    host mail3.eqx.gridhost.co.uk [95.142.156.6]:
+    550-dbl.spamhaus.org
+    550 http://www.spamhaus.org/query/dbl?domain=nk-tv.net
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <luluplew@tiger.speedyservers.com>
+Received: from luluplew by tiger.speedyservers.com with local (Exim 4.82)
+	(envelope-from <luluplew@tiger.speedyservers.com>)
+	id 1Wxjun-003oRs-Sk
+	for rob@awesomecreative.co.uk; Thu, 19 Jun 2014 22:30:37 +0100
+To: rob@awesomecreative.co.uk
+Subject: [Luluplews] Please moderate: "Lauren Baker in Vogue"
+X-PHP-Script: luluplews.com/wp-comments-post.php for 37.130.227.133
+Date: Thu, 19 Jun 2014 21:30:37 +0000
+From: WordPress <wordpress@luluplews.com>
+Message-ID: <e1721f2a42b03c4d592d05301bbd0b6e@luluplews.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.4 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=UTF-8
+
+A new comment on the post "Lauren Baker in Vogue" is waiting for your approval
+http://luluplews.com/lauren-baker-in-vogue/
+
+Author : zapsib2001@mail.ru (IP: 37.130.227.133 , torland1-this.is.a.tor.exit.server.torland.is)
+E-mail : nk-tv.net@mail.ru
+URL    : 
+Whois  : http://whois.arin.net/rest/ip/37.130.227.133
+Comment: 
+<a href="http://nk-tv.net/" rel="nofollow">Проститутки Новокузнецка</a>
+
+Approve it: http://luluplews.com/wp-admin/comment.php?action=approve&c=10
+Trash it: http://luluplews.com/wp-admin/comment.php?action=trash&c=10
+Spam it: http://luluplews.com/wp-admin/comment.php?action=spam&c=10
+Currently 1 comment is waiting for approval. Please visit the moderation panel:
+http://luluplews.com/wp-admin/edit-comments.php?comment_status=moderated
+

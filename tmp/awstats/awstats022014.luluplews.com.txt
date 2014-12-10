@@ -1,0 +1,606 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201402 will be lost/reset.
+# Last config file used to build this data file was /home/luluplew/tmp/awstats/awstats.luluplews.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2007                
+POS_TIME 2681                
+POS_VISITOR 12420               
+POS_DAY 17522               
+POS_DOMAIN 3521                
+POS_LOGIN 4231                
+POS_ROBOT 4386                
+POS_WORMS 4716                
+POS_EMAILSENDER 4847                
+POS_EMAILRECEIVER 4990                
+POS_SESSION 18287               
+POS_SIDER 18497               
+POS_FILETYPES 5125                
+POS_DOWNLOADS 5470                
+POS_OS 5989                
+POS_BROWSER 6167                
+POS_SCREENSIZE 7122                
+POS_UNKNOWNREFERER 7196                
+POS_UNKNOWNREFERERBROWSER 7607                
+POS_ORIGIN 8120                
+POS_SEREFERRALS 8264                
+POS_PAGEREFS 8421                
+POS_SEARCHWORDS 8888                
+POS_KEYWORDS 9078                
+POS_MISC 2345                
+POS_ERRORS 9181                
+POS_CLUSTER 4087                
+POS_SIDER_404 9316                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140301014707 2 138 11893886836699
+FirstTime 20140201083336
+LastTime 20140228104040
+LastUpdate 20140301121621 2 0 1 0 0
+TotalVisits 256                 
+TotalUnique 114                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 126                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 22 38 720809 4 5 15701
+1 24 25 753367 1 2 11377
+2 15 23 263121 5 16 68657
+3 37 37 175222 103 104 863690
+4 10 11 711099 5 10 72829
+5 24 26 1246232 4 8 37169
+6 33 105 13226793 4 9 39709
+7 22 46 1074915 2 3 0
+8 28 159 54693786 5 17 160461
+9 221 503 109288825 11 24 156562
+10 206 1260 128313142 44 104 2621308
+11 300 802 73380431 18 40 1527631
+12 119 485 40526560 11 27 46451
+13 24 54 3112248 1 5 22850
+14 21 125 24349811 2 9 336624
+15 140 499 45962657 11 21 445291
+16 23 80 8113919 3 11 25113
+17 66 229 11315717 2 6 0
+18 181 339 26953140 16 36 336430
+19 229 452 47112873 14 23 238
+20 716 1526 153171771 66 76 718
+21 633 1945 123931941 41 77 349272
+22 430 1199 101517294 33 60 36174
+23 156 361 52339824 11 27 12225
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 32
+gb 2989 7741 689865895
+es 245 271 7239928
+de 97 362 12850344
+in 81 1041 136574012
+us 52 123 5505106
+tr 46 47 1013260
+br 35 36 465669
+ch 29 121 10416202
+ua 22 90 13207641
+ru 18 18 90980
+ph 9 55 2117895
+pk 8 88 8696577
+cl 6 6 19111
+co 5 5 15440
+ca 5 5 15440
+za 5 5 0
+nz 5 48 12065620
+se 4 39 6638761
+ro 3 52 2058887
+bd 2 46 2033710
+jp 2 24 1028977
+fr 2 2 28105
+bg 2 42 7122246
+ie 2 31 5903421
+cn 1 1 12122
+kz 1 1 12925
+ma 1 24 1016954
+sa 1 1 12122
+be 1 1 7855
+it 0 1 677828
+hu 1 1 3671
+sk 0 1 677828
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+googlebot 77 4210174 20140228115834 0
+bot[\s_+:,\.\;\/\\-] 14 197157 20140226134304 0
+[\s_+:,\.\;\/\\-]bot 9 0 20140218010633 0
+msnbot 2 24316 20140227091726 0
+no_user_agent 1 7046 20140206024722 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+css 1753 9119924 0 0
+png 824 8973325 0 0
+woff 1 44432 0 0
+mov 60 96478512 0 0
+swf 7 73652 0 0
+php 2170 53516496 0 0
+html 1501 16738042 0 0
+mp4 213 78488874 0 0
+js 1945 20437724 0 0
+jpg 1476 627995067 0 0
+Unknown 1 8806 0 0
+gif 342 847333 0 0
+svg 26 111992 0 0
+ogv 10 14560353 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 11
+/landingvid/lulupt1.mov 28 27 41390827
+/landingvid/lulupt1.mp4 19 116 5488589
+/landingvid/lulupt2.mov 19 6 55087685
+/landingvid/lulupt2.mp4 15 442 61559096
+/landingvid/lulupt2encoded.mp4 12 9 8711709
+/landingvid/lulupt2.ogv 8 8 10011429
+/landingvid/lulupt1encoded.mp4 6 3 2298033
+/landingvid/lulupt1.ogv 4 8 6064433
+/wp-content/uploads/2014/02/Lulu_pt1.mp4 3 39 1493013
+/wp-content/plugins/akismet/readme.txt 1 0 7046
+/wp-content/uploads/2014/02/Lulu_pt2.mp4 0 3 345570
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 12
+linuxandroid 244
+winxp 117
+winlong 27
+unix 20
+winnt 19
+linuxubuntu 29
+linux 180
+winvista 245
+win7 1762
+macosx 8206
+win2003 16
+Unknown 125
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 54
+safari7.0 3985
+msie6.0 58
+chrome29.0.1547.57 20
+chrome18.0.1025.308 1
+chrome29.0.1547.76 40
+firefox26.0 512
+android 69
+chrome24.0.1295.0 1
+firefox4.0 16
+chrome29.0.1547.62 21
+chrome31.0.1650.63 92
+chrome14.0.815.0 1
+chrome12.0.742.112 3
+safari7.0.1 53
+firefox24.0 2167
+opera9.80 19
+chrome29.0.1547.65 24
+chrome32.0.1700.99 172
+iphone 1
+msie8.0 1
+chrome24.0.1290.1 2
+chrome32.0.1700.102 72
+chrome11.0.696.34 41
+msie7.0 1
+chrome33.0.1750.22 26
+msie10.6 10
+msie9.0 19
+firefox27.0 807
+Unknown 144
+firefox3.0.2 6
+firefox17.0 31
+chrome30.0.1599.17 13
+safari6.0 475
+chrome27.0.1453.110 22
+chrome13.0.782.215 11
+firefox12.0 24
+chrome30.0.1599.69 31
+chrome32.0.1700.107 1113
+safari4.0 1
+quicktime 19
+mozilla 100
+firefox25.0 1
+chrome33.0.1750.117 169
+firefox14.0.1 13
+firefox22.0 3
+msie10.0 42
+seamonkey 15
+firefox6.0 8
+firefox3.6.3 1
+safari6.1.1 283
+chrome31.0.1650.16 5
+safari5.1.9 121
+svn040 2
+firefox8.0.1 103
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_Ezooms/1.0;_help@moz.com) 20140225223402
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20140213095035
+WordPress/3.8.1;_http://luluplews.com 20140228104040
+nutch-1.4/Nutch-1.4 20140207105438
+QuickTime/7.7.3_(qtver=7.7.3;cpu=IA32;os=Mac_10.9) 20140222201233
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+AppleCoreMedia/1.0.0.10A523_(iPad;_U;_CPU_OS_6_0_1_like_Mac_OS_X;_en_us) 20140223120701
+AppleCoreMedia/1.0.0.11B554a_(iPad;_U;_CPU_OS_7_0_4_like_Mac_OS_X;_en_us) 20140224214134
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20140213095035
+WordPress/3.8.1;_http://luluplews.com 20140228104040
+nutch-1.4/Nutch-1.4 20140207105438
+Apple_Mac_OS_X_v10.6.8_CoreMedia_v1.0.0.10K549 20140226230949
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 861 1072
+From1 0 0
+From2 10 16
+From3 8 52
+From4 2801 9850
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 10 16
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+http://www.domaintuno.com/d/luluplews.com 5 5
+http://www.solardriftsolutions.co.uk/AWESOMECREATIVEDEV/ 1 38
+http://lulupjones.com 1 1
+http://webmail.gridhost.co.uk 1 1
+http://testing.local/wordpress269/wp-admin/install.php 0 2
+http://testing.local/wordpress269/wp-login.php 0 4
+http://vjs.zencdn.net/c/video-js.swf 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+erickson+beamon+feathered+headpiece 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+headpiece 1
+feathered 1
+erickson 1
+beamon 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 169 0
+206 15 1864231
+500 9 0
+301 77 1912
+404 233 881644
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 32
+/ 90 http://luluplews.com/
+/robots.txt 50 -
+/wp-content/plugins/zingiri-web-shop/fwkfor/ajax/uploadfilexd.php 1 http://luluplews.com/wp-content/plugins/zingiri-web-shop/fwkfor/ajax/uploadfilexd.php
+/admin.php 1 -
+/wp-content/plugins/wpstorecart/php/upload.php 1 http://luluplews.com/wp-content/plugins/wpstorecart/php/upload.php
+/wp-content/themes/starkers-master/js/jquery.flexslider-min.js 2 http://luluplews.com/
+/wp-content/themes/OptimizePress/lib/admin/media-upload.php 1 http://luluplews.com/wp-content/themes/OptimizePress/lib/admin/media-upload.php
+/sample-page/ 4 -
+/%3Fpage_id%3D26 2 -
+/wp-content/plugins/1-flash-gallery/upload.php 1 http://luluplews.com/wp-content/plugins/1-flash-gallery/upload.php
+/wp-content/themes/starkers-master/editor-style.css 44 -
+/wp-content/themes/clockstone/theme/functions/upload.php 1 http://luluplews.com/wp-content/themes/clockstone/theme/functions/upload.php
+/recent-work/ 2 http://luluplews.com/
+/wp-content/plugins/zingiri-web-shop/fws/ajax/init.inc.php 1 http://luluplews.com/wp-content/plugins/zingiri-web-shop/fws/ajax/init.inc.php
+/wp-content/uploads/2014/02/Lulu_pt1.mp4 12 -
+/wp-content/plugins/mm-forms-community/includes/doajaxfileupload.php 1 http://luluplews.com/wp-content/plugins/mm-forms-community/includes/doajaxfileupload.php
+/wp-content/themes/deep-blue/megaframe/megapanel/inc/upload.php 1 http://luluplews.com/wp-content/themes/deep-blue/megaframe/megapanel/inc/upload.php
+/wp-content/plugins/wp-mailinglist/vendors/uploadify/upload.php 1 http://luluplews.com/wp-content/plugins/wp-mailinglist/vendors/uploadify/upload.php
+/wp-content/plugins/mini-mail-dashboard-widget/wp-mini-mail.php 1 http://luluplews.com/wp-content/plugins/mini-mail-dashboard-widget/wp-mini-mail.php
+/wp-content/plugins/wp-property/third-party/uploadify/uploadify.php 1 http://luluplews.com/wp-content/plugins/wp-property/third-party/uploadify/uploadify.php
+/administrator/index.php 1 -
+/landingvid/lulupt1.mov 2 -
+/wp-update.php 1 http://luluplews.com/wp-update.php
+/null 2 http://luluplews.com/
+/administrator/ 1 luluplews.com
+/wp-login.php 1 http://testing.local/wordpress269/wp-login.php
+/wp-content/themes/starkers-master/css/flexslider.css 2 http://luluplews.com/
+/wp-content/plugins/xcloner-backup-and-restore/readme.txt 1 http://www.luluplews.com/wp-content/plugins/xcloner-backup-and-restore/readme.txt
+/wp-login 1 -
+/wp-content/plugins/advanced-custom-fields/core/actions/export.php 1 http://luluplews.com/wp-content/plugins/advanced-custom-fields/core/actions/export.php
+/wp-content/plugins/complete-gallery-manager/frames/ 1 http://luluplews.com/wp-content/plugins/complete-gallery-manager/frames/
+/wp-content/plugins/thecartpress/checkout/CheckoutEditor.php 1 http://luluplews.com/wp-content/plugins/thecartpress/checkout/CheckoutEditor.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 126
+92.234.237.210 2253 5039 456952908 20140227212254
+86.134.160.160 442 2254 119090498 20140226230949
+84.127.227.195 242 242 918632 20140227212520
+31.16.41.0 92 357 12793127 20140211171836
+195.8.196.20 84 84 0 20140228104040
+217.33.171.164 56 290 11002981 20140226092821
+217.195.202.13 41 41 531774 20140217184620
+151.225.50.43 29 121 10416202 20140210211411
+82.19.180.116 22 83 2286407 20140210194657
+80.45.153.117 20 20 61760 20140213031547
+122.174.23.95 19 130 24247564 20140213110523
+90.212.91.47 15 59 12197997 20140212170652
+186.195.146.219 15 15 46320 20140223014602
+82.3.172.19 15 15 46320 20140218060450
+216.151.137.36 14 14 242227 20140225225817
+90.201.107.129 14 64 13952793 20140222115624
+90.215.214.186 13 69 12518942 20140217232008
+37.57.17.103 12 80 13161752 20140214120552
+180.211.115.142 12 125 24499115 20140213081452
+69.58.178.56 11 11 142068 20140216122625
+86.188.151.98 11 131 24169546 20140211105146
+213.205.234.121 10 40 3040715 20140201135627
+46.161.41.140 9 9 54815 20140228014003
+46.118.114.251 8 8 40083 20140225150650
+208.115.111.74 8 8 129578 20140225223402
+49.205.110.233 3 46 11153579 20140213103542
+83.137.158.141 1 1 3671 20140227123352
+168.161.203.31 5 50 2071726 20140211102637
+94.23.161.188 1 1 15752 20140225160756
+122.177.171.84 2 26 1031085 20140213100306
+188.40.249.74 1 1 5752 20140205195448
+2.135.59.248 1 1 12925 20140214034909
+193.111.141.44 2 2 22882 20140221135531
+177.43.63.141 5 5 15440 20140209174719
+117.231.106.185 2 37 6615892 20140213100216
+103.21.55.238 1 23 1016855 20140213104138
+54.205.222.244 1 1 16388 20140225033217
+120.28.224.115 3 26 1041279 20140213111440
+49.14.21.173 1 22 1015986 20140213103101
+39.55.132.88 2 24 1028232 20140213141442
+115.118.117.1 1 24 1016954 20140213102453
+46.214.47.133 3 52 2058887 20140213150251
+216.38.216.101 3 11 210757 20140210021425
+79.76.241.122 2 17 225574 20140204002450
+86.143.192.112 4 26 1051846 20140208104600
+180.149.3.189 1 23 1016855 20140213100801
+93.186.202.197 2 2 22882 20140217222829
+105.231.33.241 1 24 1016954 20140213101054
+176.102.37.56 1 1 2903 20140225233101
+216.151.130.170 1 1 18125 20140225210537
+86.137.2.3 4 16 245489 20140206211109
+122.174.201.153 4 52 567006 20140214095154
+74.14.237.15 5 5 15440 20140209174849
+117.197.10.109 1 24 1016954 20140213102609
+5.129.208.124 1 1 12122 20140214033835
+62.31.88.244 2 39 11219632 20140221142447
+59.88.248.142 2 31 1028482 20140213115205
+180.149.3.250 1 23 1016855 20140213113611
+95.102.65.49 0 1 677828 
+91.84.76.218 1 23 1016855 20140205112057
+212.183.140.29 0 2 1101658 
+93.151.124.145 0 1 677828 
+200.6.117.137 1 1 3671 20140227123356
+122.52.141.78 6 29 1076616 20140213101724
+23.23.222.104 1 1 12250 20140218090243
+213.211.148.135 1 1 7855 20140227150233
+122.170.30.63 2 31 1029553 20140213101644
+139.190.167.184 1 24 1016954 20140213100733
+50.57.190.50 1 1 12122 20140213103444
+27.251.180.50 3 59 10759231 20140213105233
+1.22.26.9 2 31 1029553 20140213113508
+94.11.208.34 7 29 1088423 20140214170312
+81.153.164.210 0 1 423830 
+109.154.33.188 3 42 6560481 20140210124024
+182.189.19.125 5 40 6651391 20140213103707
+115.187.63.222 2 48 12035920 20140213111510
+173.254.28.117 1 1 3671 20140227123353
+117.198.217.30 0 1 677828 
+200.73.65.90 5 5 15440 20140225050932
+187.84.180.222 0 1 357589 
+117.218.78.131 1 24 1016954 20140213101550
+110.224.201.224 3 26 1039370 20140213100830
+182.64.196.87 2 25 1028331 20140213115433
+179.209.18.101 3 3 9264 20140206075140
+212.227.29.47 1 1 16461 20140226194343
+192.96.204.42 5 5 0 20140227164025
+87.219.16.127 2 27 5631346 20140219092909
+109.197.193.202 5 5 15440 20140213031521
+111.92.6.38 0 2 1169800 
+138.91.52.28 1 1 2903 20140216183938
+122.164.213.205 2 47 12033031 20140213141451
+150.70.173.39 1 1 12122 20140214035143
+195.88.17.223 1 1 11461 20140214034720
+95.9.61.31 5 5 15440 20140225050738
+192.82.254.203 4 27 2207339 20140217200045
+86.170.99.170 1 1 12122 20140201143246
+89.100.208.150 2 31 5903421 20140226185513
+88.240.63.139 0 1 466046 
+14.98.58.155 1 23 1016855 20140213120224
+86.143.94.176 2 42 10818575 20140227153749
+117.194.0.13 6 39 6499491 20140213101317
+212.233.173.63 0 1 677828 
+31.51.85.177 0 2 725621 
+94.23.167.218 1 1 12353 20140221135529
+77.78.23.114 2 41 6444418 20140213153410
+217.137.108.28 5 5 15440 20140225011435
+46.4.48.68 1 1 12122 20140214215212
+117.78.13.18 1 1 12122 20140207105438
+118.92.101.69 5 48 12065620 20140209063546
+203.122.45.201 1 24 1016954 20140213104833
+200.27.231.114 5 5 15440 20140213031622
+177.19.134.226 5 5 15440 20140218060404
+193.106.31.8 1 1 2903 20140217041036
+200.193.237.107 5 5 15440 20140213031646
+193.111.141.116 1 1 16600 20140225160754
+5.56.63.95 1 1 12122 20140213095035
+117.222.0.52 1 24 1016954 20140213122407
+81.184.32.77 0 1 677828 
+122.174.214.137 2 26 1031017 20140213102001
+90.227.135.241 4 39 6638761 20140213112116
+116.202.217.47 2 37 6615892 20140213102409
+122.168.183.231 2 32 4336465 20140213100654
+177.22.119.110 5 5 15440 20140209174737
+50.57.68.9 1 1 12122 20140213103443
+180.188.253.242 2 25 1028196 20140213112117
+208.93.206.59 0 1 423830 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20140201 13 43 3052837 4
+20140202 1 1 0 1
+20140203 29 100 3874651 5
+20140204 20 106 15253790 6
+20140205 43 379 43883557 14
+20140206 19 82 4093689 10
+20140207 2 2 12122 2
+20140208 18 40 1101503 7
+20140209 30 73 12167349 9
+20140210 41 277 29669155 10
+20140211 90 293 5856155 8
+20140212 20 88 13229082 9
+20140213 325 2094 200672769 52
+20140214 70 307 6775280 16
+20140215 2 3 677828 2
+20140216 14 17 1228181 4
+20140217 192 384 53714162 11
+20140218 385 1110 63197566 10
+20140219 3 28 5631346 2
+20140221 8 46 11667320 7
+20140222 227 406 61496479 8
+20140223 578 1234 196532118 7
+20140224 31 224 25940455 7
+20140225 191 279 19534664 18
+20140226 955 1933 162453178 13
+20140227 370 777 80533562 12
+20140228 3 3 6699 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 9
+5mn-15mn 12
+0s-30s 186
+15mn-30mn 5
+2mn-5mn 15
+30s-2mn 22
+30mn-1h 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 40
+/ 1467 15652163 141 138
+/wp-admin/admin-ajax.php 850 5451958 1 9
+/wp-login.php 382 1350208 38 33
+/wp-admin/load-scripts.php 204 9810783 0 0
+/wp-admin/post.php 131 11864725 0 0
+/wp-admin/edit.php 127 6316437 0 0
+/wp-cron.php 88 0 73 73
+/wp-admin/load-styles.php 78 4391752 0 0
+/wp-admin/theme-editor.php 72 2922648 0 0
+/wp-admin/plugins.php 40 1846113 0 0
+/wp-admin/admin.php 31 1563919 0 0
+/wp-admin/ 24 988988 1 0
+/wp-admin/plugin-editor.php 21 1005497 0 0
+/wp-admin/options-reading.php 19 635650 0 0
+/wp-admin/plugin-install.php 19 955806 0 0
+/wp-includes/js/tinymce/wp-tinymce.php 18 2092770 0 0
+/wp-admin/media-upload.php 15 216634 0 0
+/wp-admin/themes.php 15 527898 0 0
+/wp-admin/async-upload.php 12 24867 0 0
+/wp-admin/update.php 9 228293 0 0
+/wp-admin/options-general.php 9 445920 0 0
+/wp-admin/post-new.php 7 528024 0 0
+/wp-admin/options-permalink.php 6 206767 0 0
+http://LULUPLEWS.com/wp-login.php/ 6 22776 1 1
+/wp-content/plugins/fv-wordpress-flowplayer/flowplayer/flowplayer.swf 5 15368 0 0
+/wp-admin/media-new.php 1 33903 0 0
+/wp-admin/index.php 1 39988 0 0
+/sample-page/ 2 46348 0 0
+/wp-admin/tools.php 2 72823 0 0
+/searchreplacedb.php 1 4718 0 1
+/bio/ 1 12332 0 1
+/recent-work/ 1 15435 0 0
+/wp-content/plugins/duplicator/assets/fonts/fontawesome-webfont.woff 1 44432 0 0
+/wp-admin/options-writing.php 1 38252 0 0
+/wp-admin/nav-menus.php 3 565850 0 0
+/cpanel 1 8806 1 0
+/wp-admin/customize.php 3 30849 0 0
+/wp-admin/upload.php 4 310905 0 0
+/wp-includes/js/mediaelement/flashmediaelement.swf 2 58284 0 0
+/wp-admin/update-core.php 1 32539 0 0
+END_SIDER
